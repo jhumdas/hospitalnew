@@ -1,38 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+
+html.body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.custContainer {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header start */
+
+.header{
+    width: 100%;
+    height: auto;
+    padding: 8px 0px;
+    background-color: #237d9e;
+    color: #fff;
+}
+
+.topheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderIconSide{
+    display: flex;
+    gap: 10px;
+}
+
+.HeaderIconSide i{
+    color: #fff;
+    font-size: 13px;
+}
+
+.headerDet{
+    display: flex;
+    gap: 15px;
+}
+
+.lwrInnerRhtLi{
+    display: flex;
+    gap: 5px;
+}
+
+.lwrInrPara{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Header end */
+
 /* why choose us section start */
 
-.whyusSection{
+.whyusSection {
     width: 100%;
     height: auto;
     padding-top: 50px;
     padding-bottom: 30px;
 }
 
-.whyusSecInn{
+.whyusSecInn {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.whyusDet{
+.whyusDet {
     width: 55%;
 }
 
-.whyusimg{
+.whyusimg {
     width: 40%;
     height: auto;
 }
 
-.whyusimgFig{
+.whyusimgFig {
     width: 100%;
     height: auto;
 }
 
-.whyusimgFig img{
+.whyusimgFig img {
     width: 100%;
     height: 100%;
 }
 
-.whyusSmallHead{
+.whyusSmallHead {
     color: #9A9A9A;
     font-size: 12px;
     line-height: 20px;
@@ -42,45 +135,45 @@
     border-bottom: 1px solid #eaeaea;
 }
 
-.whyusHead{
+.whyusHead {
     font-size: 25px;
     font-weight: 600;
     color: #224855;
     margin-top: 15px;
 }
 
-.whyusPara{
+.whyusPara {
     color: #000;
     font-size: 14px;
     line-height: 22px;
 }
 
-.whyChooseDiv{
+.whyChooseDiv {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.whychoosePoint{
+.whychoosePoint {
     width: 48%;
     padding: 15px 0px;
     position: relative;
 }
 
-.whychoosePoint i{
+.whychoosePoint i {
     color: #224855;
     font-size: 15px;
     margin-right: 5px;
 }
 
-.whyChooseHead{
+.whyChooseHead {
     color: #000;
     font-weight: 600;
     font-size: 15px;
     margin-bottom: 15px;
 }
 
-.whyChoosePara{
+.whyChoosePara {
     color: #262626;
     font-size: 13px;
     line-height: 20px;
@@ -263,7 +356,13 @@
 
 @media (max-width: 1199px) {
 
+    /* why choose us section start */
 
+    .whyusDet {
+        width: 60%;
+    }
+
+    /* why choose us section end */
 
     /* excellence section start */
 
@@ -280,7 +379,25 @@
 
 @media (max-width: 991px) {
 
+    /* why choose us section start */
 
+    .whyusSecInn {
+        flex-direction: column;
+    }
+
+    .whyusDet {
+        width: 100%;
+    }
+
+    .whyusimg {
+        width: 100%;
+    }
+
+    .whyusimgFig {
+        height: 400px;
+    }
+
+    /* why choose us section end */
 
     /* excellence section start */
 
@@ -329,7 +446,18 @@
 
 @media (max-width: 575px) {
 
+    /* why choose us section start */
 
+    .whyusimgFig {
+        height: auto;
+    }
+
+    .whychoosePoint {
+        width: 100%;
+        padding: 5px 0px;
+    }
+
+    /* why choose us section end */
 
     /* excellence section start */
 
