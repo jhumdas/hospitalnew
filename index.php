@@ -2,63 +2,30 @@
 
 <!-- banner part -->
 
-<!-- <section class="banner">
-    <div class="container">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="banner-slide">
-                        <div class="left-bannercnt">
-                            <p>Recognized for selfless service in <br>healthcare for over two decades
-                            </p>
-                            <h4>A legacy of<br>excellence.</h4>
-                            <a href="#" class="blink">Book An
-                                Appointment</a>
-                        </div>
-
-                        <div class="right-bannerImg">
-                            <img src='./assets/images/Banner20231122122903.png' alt=""></img>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="banner-slide">
-                        <div class="left-bannercnt">
-                            <p>Restoring Hope And Health <br>For Over Two Decades
-                            </p>
-                            <h4>Where matters of the <br> heart are understood <br>the best </h4>
-                            <a href="#">Book An
-                                Appointment</a>
-                        </div>
-
-                        <div class="right-bannerImg">
-                            <img src='./assets/images/Banner20230411133215.jpg' alt=""></img>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="banner-slide">
-                        <div class="left-bannercnt">
-                            <p>Recognized for selfless service in <br>healthcare for over two decades
-                            </p>
-                            <h4>A legacy of<br>excellence.</h4>
-                            <a href="#">Book An
-                                Appointment</a>
-                        </div>
-
-                        <div class="right-bannerImg">
-                            <img src='./assets/images/Banner20231122122903.png' alt=""></img>
-                        </div>
-                    </div>
+<section class="banner">
+    <div class="swiper banSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="banner-slide">
+                    <img src="./assets/images/banner1.jpg" alt="img">
                 </div>
             </div>
 
+            <div class="swiper-slide">
+                <div class="banner-slide">
+                    <img src="./assets/images/banner2.jpg" alt="img">
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="banner-slide">
+                    <img src="./assets/images/banner3.jpg" alt="img">
+                </div>
+            </div>
         </div>
-
+        <div class="swiper-pagination"></div>
     </div>
-</section> -->
-
-
+</section>
 
 <?php include 'whychooseus.php' ?>
 
