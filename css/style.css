@@ -1,0 +1,344 @@
+/* why choose us section start */
+
+.whyusSection{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.whyusSecInn{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.whyusDet{
+    width: 55%;
+}
+
+.whyusimg{
+    width: 40%;
+    height: auto;
+}
+
+.whyusimgFig{
+    width: 100%;
+    height: auto;
+}
+
+.whyusimgFig img{
+    width: 100%;
+    height: 100%;
+}
+
+.whyusSmallHead{
+    color: #9A9A9A;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.whyusHead{
+    font-size: 25px;
+    font-weight: 600;
+    color: #224855;
+    margin-top: 15px;
+}
+
+.whyusPara{
+    color: #000;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.whyChooseDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.whychoosePoint{
+    width: 48%;
+    padding: 15px 0px;
+    position: relative;
+}
+
+.whychoosePoint i{
+    color: #224855;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.whyChooseHead{
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.whyChoosePara{
+    color: #262626;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+/* why choose us section end */
+
+/* excellence section start */
+
+.HospitalAbt {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.HospitalAbtTop {
+    text-align: center;
+}
+
+.HospitalAbtTop h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #224855;
+}
+
+.HospitalAbtTop p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 496px;
+    margin: 15px auto;
+}
+
+/* tab panel */
+
+.HospitalAbtBtm {
+    padding-top: 40px;
+}
+
+.tabBtnLink {
+    background-color: #f7f5f5 !important;
+    color: #000;
+    padding: 12px 24px !important;
+    margin-bottom: 3px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.tabBtnLink span {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tabBtnLink img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.tabBtnLink.active {
+    background-color: #237d9e !important;
+    color: #fff;
+}
+
+.tabBtnLink:hover {
+    background-color: #237d9e !important;
+    color: #fff !important;
+}
+
+.tabBan {
+    width: 100%;
+    height: auto;
+}
+
+.tabBan img {
+    width: 100%;
+    height: 100%;
+}
+
+.tabContentHead {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.tabContentPara {
+    color: #262626;
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 0;
+}
+
+.HeartList {
+    border-top: 1px solid #EAEAEA;
+    padding: 20px 0px;
+}
+
+.HeartList ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 30px;
+    padding: 15px 0px;
+}
+
+.HeartList ul li {
+    width: 30%;
+}
+
+.HeartList ul li::before {
+    content: '\f058';
+    font-family: fontawesome;
+    color: #237d9e;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.HeartList ul li a {
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+
+.tabContentBtnDiv {
+    padding-top: 20px;
+}
+
+.tabContentBtn {
+    border: 1px solid #000;
+    background: transparent;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 0;
+    outline: 0;
+    color: #000;
+}
+
+.tabContentBtn:hover {
+    background: #237d9e;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+.tabBigHead {
+    color: #224855;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.highlightList ul li {
+    color: #262626;
+    font-size: 13px;
+    line-height: 26px;
+    position: relative;
+    padding: 10px 0px;
+    border-bottom: 1px solid #F7F5F5;
+}
+
+.highlightList ul li::before {
+    content: '\f14a';
+    font-family: fontawesome;
+    color: #224855;
+    font-size: 13px;
+    margin-right: 8px;
+}
+
+
+/* excellence section end */
+
+/* Responsive */
+
+@media (max-width: 1199px) {
+
+
+
+    /* excellence section start */
+
+    .tabBtnLink {
+        padding: 12px 10px !important;
+    }
+
+    .tabBtnLink img {
+        margin-right: 5px;
+    }
+
+    /* excellence section end */
+}
+
+@media (max-width: 991px) {
+
+
+
+    /* excellence section start */
+
+    .tabContentBtn {
+        padding: 7px 12px;
+    }
+
+    .tabBigHead {
+        font-size: 18px;
+    }
+
+    /* excellence section end */
+}
+
+@media (max-width: 767px) {
+
+    /* excellence section start */
+
+    .HospitalAbtTop h5 {
+        font-size: 20px;
+    }
+
+    .HospitalAbtTop p {
+        font-size: 13px;
+    }
+
+    .HospitalAbtBtm {
+        padding-top: 20px;
+    }
+
+    .HeartList ul li {
+        width: 47%;
+    }
+
+    .HeartList ul {
+        column-gap: 8px;
+        row-gap: 20px;
+    }
+
+    .HeartList ul li a {
+        font-size: 12px;
+    }
+
+    /* excellence section end */
+}
+
+@media (max-width: 575px) {
+
+
+
+    /* excellence section start */
+
+    .tabBigHead {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /* excellence section end */
+}
+
+@media (max-width: 420px) {}
