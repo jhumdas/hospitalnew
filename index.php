@@ -33,4 +33,7 @@
 
 <?php include 'care.php' ?>
 
+
+<?php include 'history.php' ?>
+
 <?php include 'includes/footer.php' ?>

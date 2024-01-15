@@ -4,7 +4,7 @@
             <div class="col-lg-5 col-md-7 col-12">
                 <div class="careContain">
                     <h5 class="whyusSmallHead">THE Hospital WORLD OF CARE</h5>
-                    <h5 class="whyusHead">Why Choose Us?</h5>
+                    <h5 class="whyusHead">International patient care</h5>
                     <p class="whyusPara">“Bringing healthcare of International standards within the reach of every individual.”</p>
                     <div class="careTabBtn">
                         <button class="careBtn"><i class="fa-solid fa-hospital"></i>Hospitals</button>
