@@ -64,4 +64,6 @@
 
 <?php include 'excellence.php' ?>
 
+<?php include 'care.php' ?>
+
 <?php include 'includes/footer.php' ?>

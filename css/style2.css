@@ -1,0 +1,161 @@
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    margin-top: 30px;
+    background-color: #237d9e;
+    border-bottom: 1px solid rgba(154,154,154, .2);
+}
+.footerTitle h6{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+.footerManu a{
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+}
+.footerMain{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    background-color: #237d9e;
+}
+.footerSocal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.footerSocal a{
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+.footerNews{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px; 
+}
+.footerNews a{
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    border-right: 2px solid #fff;
+    padding-right: 15px;
+}
+.footerNews a:last-child{
+    border-right: none;
+}
+.footerReserve {
+    text-align: end;
+}
+.footerReserve a{
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: end;  
+}
+.footerLast .row{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.footerdtls {
+    text-align: center;
+}
+.footerdtls a{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: .5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.careSection{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+.careSection .row{
+    justify-content: space-between;
+}
+.careImg{
+    width: 100%;
+    height: auto;
+}
+.careImg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    .footerNews a{
+        padding-right: 4px;
+    }
+}
+@media(max-width:767px){
+    .footerMain .row{
+        justify-content: center;
+        gap: 15px;
+    }
+    .footerSocal{
+        justify-content: center;
+    }
+    .footerNews{
+        justify-content: center;
+    }
+    .footerReserve{
+        text-align: center;
+    }
+    .footerLast .row{
+        margin-top: 20px;
+    }
+}
+@media(max-width:575px){
+.footerContain{
+    text-align: center;
+}
+.footer{
+    padding: 20px 0px 30px;
+}
+
+.footerMain{
+    padding: 30px 0px 20px;
+}
+.footerLast .row:last-child{
+    margin-bottom: 0px;
+}
+.footerTitle h6{
+    margin-top: 15px;
+}
+
+}
