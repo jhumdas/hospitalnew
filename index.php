@@ -25,12 +25,30 @@
         </div>
         <div class="swiper-pagination"></div>
     </div>
+    <div class="banBtm">
+        <div class="custContainer">
+            <div class="banBtmInn">
+                <div class="banInfoDiv">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <div>
+                        <h5>COVID-19 INFORMATION</h5>
+                        <p>Everything You Need To Know About COVID-19 : Symptoms, Diagnosis, Treatment & Vaccination</p>
+                    </div>
+                </div>
+                <div class="BanreadbtnDiv">
+                    <button class="Banreadbtn">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php include 'whychooseus.php' ?>
 
 <?php include 'excellence.php' ?>
 
-<?php include 'care.php' ?>
+<!-- <?php include 'care.php' ?> -->
+
+<?php include 'patientspeak.php' ?>
 
 <?php include 'includes/footer.php' ?>

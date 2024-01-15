@@ -48,6 +48,27 @@ a:hover {
     margin: 0 auto;
 }
 
+/* book button */
+
+.bookBtndiv {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 14px 30px;
+    background: #FFC107;
+    z-index: 10;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.bookBtndiv p {
+    font-size: 13px;
+}
+
 /* Header start */
 
 .header {
@@ -316,6 +337,68 @@ a:hover {
     /* object-fit: cover; */
 }
 
+.banBtm {
+    background-color: #FCBA12;
+    padding: 20px 0px;
+}
+
+.banBtmInn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.banInfoDiv {
+    display: flex;
+    gap: 15px;
+}
+
+.banInfoDiv i {
+    color: #000;
+    font-size: 20px;
+}
+
+.banInfoDiv h5 {
+    color: #262626;
+    display: block;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.banInfoDiv p {
+    color: #000000;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.Banreadbtn {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #000;
+    background: transparent;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 0;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banreadbtn:hover {
+    background: #237D9E;
+    border: 1px solid #237D9E;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
 /* Banner part end */
 
 /* why choose us section start */
@@ -579,8 +662,169 @@ a:hover {
     margin-right: 8px;
 }
 
-
 /* excellence section end */
+
+/* patient speak start */
+
+.patientSpeak {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    background-color: rgba(247, 245, 245, 1);
+}
+
+.patientSpkTop {
+    text-align: center;
+}
+
+.patientSpkTop p {
+    color: #9A9A9A;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.patientSpkTop h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #224855;
+    margin-bottom: 10px;
+}
+
+.patientSpkBtm {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.patSpkImg {
+    width: 45%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.patspklft {
+    width: 40%;
+    position: relative;
+}
+
+.patspkfigOne{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.patspkfigOne img{
+    width: 100%;
+    height: 100%;
+}
+
+.patspkfigtwo{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+
+.patspkfigtwo img{
+    width: 100%;
+    height: 100%;
+}
+
+.patSpkRgt{
+    width: 60%;
+    height: 480px;
+}
+
+.patSpkRgt img{
+    width: 100%;
+    height: 100%;
+}
+
+.patSpkReview {
+    width: 50%;
+    height: auto;
+}
+
+.patSpkRvInn {
+    max-height: 380px;
+    overflow: hidden;
+}
+
+.PatSpkTxt {
+    border-bottom: 1px solid #EAEAEA;
+    padding: 20px 0px;
+}
+
+.PatSpkTxt:first-child {
+    padding-top: 0;
+}
+
+.patReviewName {
+    color: #262626;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.verifyTxt {
+    color: #FCBA12;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: .5px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.verifyTxt i {
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+.patReview {
+    color: #262626;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.viewAllReviewbtn {
+    padding-top: 30px;
+}
+
+.viewallBtn {
+    color: #224855;
+    font-size: 12px;
+    letter-spacing: .5px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    outline: 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewallBtn i{
+    color: #224855;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.viewallBtn:hover{
+    text-decoration: underline;
+    color: #224855;
+}
+
+/* patient speak end */
 
 /* Responsive */
 
@@ -640,6 +884,22 @@ a:hover {
     }
 
     /* excellence section end */
+
+    /* patient speak section start */
+
+    .patSpkRgt {
+        height: 400px;
+    }
+
+    .patspkfigtwo{
+        height: 200px;
+    }
+
+    .patspkfigOne{
+        height: 130px;
+    }
+
+    /* patient speak section end */
 }
 
 @media (max-width: 991px) {
@@ -659,8 +919,15 @@ a:hover {
         display: none;
     }
 
-
     /* header part end */
+
+    /* banner part start */
+
+    .banBtmInn {
+        gap: 10px;
+    }
+
+    /* banner part end */
 
     /* why choose us section start */
 
@@ -693,6 +960,24 @@ a:hover {
     }
 
     /* excellence section end */
+
+    /* patient speak section start */
+
+    .patientSpkBtm{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .patSpkImg{
+        width: 70%;
+        margin: 0px auto;
+    }
+
+    .patSpkReview {
+        width: 100%;
+    }
+
+    /* patient speak section end */
 }
 
 @media (max-width: 767px) {
@@ -701,6 +986,36 @@ a:hover {
 
     .banner-slide {
         height: 400px;
+    }
+
+    .banBtmInn {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .banInfoDiv,
+    .BanreadbtnDiv {
+        width: 100%;
+    }
+
+    .Banreadbtn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        padding: 5px 8px;
+        font-size: 11px;
+    }
+
+    .banInfoDiv p {
+        font-size: 12px;
+    }
+
+    .banInfoDiv h5 {
+        font-size: 13px;
+    }
+
+    .banInfoDiv i {
+        font-size: 15px;
     }
 
     /* banner part end */
@@ -741,9 +1056,27 @@ a:hover {
     }
 
     /* excellence section end */
+
+    /* patient speak section start */
+
+    .patientSpkTop h5 {
+        font-size: 20px;
+    }
+
+    /* patient speak section end */
 }
 
 @media (max-width: 575px) {
+
+    /* book button */
+
+    .bookBtndiv {
+        padding: 8px 15px;
+    }
+
+    .bookBtndiv p {
+        font-size: 12px;
+    }
 
     /* why choose us section start */
 
@@ -761,7 +1094,7 @@ a:hover {
         padding: 5px 0px;
     }
 
-    .whyusPara{
+    .whyusPara {
         font-size: 13px;
     }
 
@@ -775,6 +1108,28 @@ a:hover {
     }
 
     /* excellence section end */
+
+    /* patient speak section start */
+
+    .patSpkImg {
+        width: 100%;
+    }
+
+    .patSpkRgt {
+        height: 300px;
+    }
+
+    .patspkfigtwo{
+        height: 130px;
+        bottom: 10px;
+    }
+
+    .patspkfigOne{
+        width: 100%;
+    }
+
+
+    /* patient speak section end */
 }
 
 @media (max-width: 480px) {
@@ -800,7 +1155,7 @@ a:hover {
         margin-right: 8px;
     }
 
-    .respHeadLi i{
+    .respHeadLi i {
         font-size: 12px;
     }
 
