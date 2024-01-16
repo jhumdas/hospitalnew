@@ -26,6 +26,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style3.css">
 </head>
 
 <body>
@@ -164,8 +165,8 @@
             <div class="custContainer">
                 <div class="btmheaderInn">
                     <ul class="btmHeaderUl">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About Us</a></li>
                         <li><a href="#">Facilities & Services</a></li>
                         <li><a href="#">Departments</a></li>
                         <li><a href="#">Doctors</a></li>
