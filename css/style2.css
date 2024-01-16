@@ -304,6 +304,18 @@
     .careTabBtn {
         gap: 12px;
     }
+
+    .histSection{
+        padding: 15px 0px;
+    }
+
+    .historyContain .whyusHead{
+        margin-top: 0;
+    }
+
+    .knowBtn a {
+        font-size: 12px;
+    }
 }
 
 @media(max-width:575px) {
