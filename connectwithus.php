@@ -24,27 +24,169 @@
 
                 <!-- tab content -->
                 <div id="tabs-content">
-                    <div id="all" class="tab-content">
-                        <div class="connectVidTabDiv">
-                            <img src="./assets/images/video Thumbnail.png" alt="img">
-                            <div class="vidplaybtn">
-                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0"><i class="fa-solid fa-play"></i></a>
+                    <div id="all" class="connecttab-content">
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Keep the flag flying high</a>
+                                <p class="connectVidDate">August 13, 2022</p>
                             </div>
                         </div>
-                        <div class="connectVidRgt">
-                            <p class="connectVidHead">Keep the flag flying high</p>
-                            <p class="connectVidDate">August 13, 2022</p>
+
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Get yourself screened for Prostate Cancer before it's too late</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Dr Debraj Jash, Consultant Pulmonologist - Bronchoscopy and Pleuroscopy</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Patient Testimonial - Ms. Thandar Aye</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="featured" class="connecttab-content">
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Keep the flag flying high</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Get yourself screened for Prostate Cancer before it's too late</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Dr Debraj Jash, Consultant Pulmonologist - Bronchoscopy and Pleuroscopy</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Patient Testimonial - Ms. Thandar Aye</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="latest" class="connecttab-content">
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Keep the flag flying high</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Get yourself screened for Prostate Cancer before it's too late</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Dr Debraj Jash, Consultant Pulmonologist - Bronchoscopy and Pleuroscopy</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
+                        </div>
+
+                        <div class="connectContentInn">
+                            <div class="connectVidTabDiv">
+                                <img src="./assets/images/video Thumbnail.png" alt="img">
+                                <div class="vidplaybtn">
+                                    <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="connectVidRgt">
+                                <a href="https://www.youtube.com/embed/D0UnqGm_miA?si=p_WxbNOOVLjt5fhB?controls=0" target="_blank" class="connectVidHead">Patient Testimonial - Ms. Thandar Aye</a>
+                                <p class="connectVidDate">August 13, 2022</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div id="featured" class="tab-content">
-                    <h2>Dante Hicks</h2>
-                    <p>"My friend here's trying to convince me that any independent contractors who were working on the uncompleted Death Star were innocent victims when it was destroyed by the Rebels."</p>
-                </div>
-                <div id="latest" class="tab-content">
-                    <h2>Randall Graves</h2>
-                    <p>"In light of this lurid tale, I don't even see how you can romanticize your relationship with Caitlin. She broke your heart and inadvertently drove men to deviant lifestyles."</p>
-                </div>
+
             </div>
         </div>
     </div>
