@@ -51,7 +51,6 @@
 
 <?php include 'patientspeak.php' ?>
 
-
 <?php include 'history.php' ?>
 
 <?php include 'includes/footer.php' ?>
