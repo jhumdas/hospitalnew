@@ -49,10 +49,12 @@
 
 <?php include 'excellence.php' ?>
 
-<?php include 'care.php' ?> 
-
 <?php include 'patientspeak.php' ?>
 
+<?php include 'care.php' ?> 
+
 <?php include 'history.php' ?>
+
+<?php include 'newsSection.php' ?>
 
 <?php include 'includes/footer.php' ?>

@@ -234,7 +234,7 @@ a:hover {
 
 .sideLogoDiv {
     border-bottom: 4px solid #fcba12;
-    background: #f7f5f5;
+    background: rgba(247, 245, 245, 1);
     padding: 25px 20px;
 }
 
@@ -513,8 +513,8 @@ a:hover {
 
 .btmHeaderUl {
     display: flex;
-    /* justify-content: center; */
-    /* gap: 5%; */
+    justify-content: center;
+    gap: 2%;
 }
 
 .btmHeaderUl li {
@@ -528,7 +528,7 @@ a:hover {
 .btmHeaderUl li a {
     font-size: 12px;
     color: #000;
-    font-weight: 600;
+    font-weight: 800;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -679,6 +679,7 @@ a:hover {
     color: #224855;
     margin-top: 15px;
     margin-bottom: 10px;
+    font-family: Times New Roman, serif;
 }
 
 .whyusPara {
@@ -728,7 +729,7 @@ a:hover {
     width: 100%;
     height: auto;
     padding: 50px 0px;
-    background-color: #F7F5F5;
+    background-color: rgba(247, 245, 245, 1);
 }
 
 .connectWithusInn {
@@ -930,6 +931,7 @@ a:hover {
     font-size: 25px;
     font-weight: 600;
     color: #224855;
+    font-family: Times New Roman, serif;
 }
 
 .HospitalAbtTop p {
@@ -946,8 +948,13 @@ a:hover {
     padding-top: 40px;
 }
 
+.HospitalAbtBtm .nav{
+    display: flex;
+    flex-direction: column;
+}
+
 .tabBtnLink {
-    background-color: #f7f5f5 !important;
+    background-color: rgba(247, 245, 245, 1) !important;
     color: #000;
     padding: 12px 24px !important;
     margin-bottom: 3px;
@@ -1048,6 +1055,8 @@ a:hover {
     border-radius: 0;
     outline: 0;
     color: #000;
+    transition-property: all;
+    transition-duration: 700ms;
 }
 
 .tabContentBtn:hover {
@@ -1071,7 +1080,7 @@ a:hover {
     line-height: 26px;
     position: relative;
     padding: 10px 0px;
-    border-bottom: 1px solid #F7F5F5;
+    border-bottom: 1px solid rgba(247, 245, 245, 1);
 }
 
 .highlightList ul li::before {
@@ -1111,6 +1120,7 @@ a:hover {
     font-weight: 600;
     color: #224855;
     margin-bottom: 10px;
+    font-family: Times New Roman, serif;
 }
 
 .patientSpkBtm {
@@ -1246,15 +1256,127 @@ a:hover {
 
 /* patient speak end */
 
+/* news section start */
+
+.newsSec{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.newsSecTop{
+    text-align: center;
+}
+
+.newsSecTop p{
+    color: #9A9A9A;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.newsSecTop h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: #224855;
+    margin-bottom: 10px;
+    font-family: Times New Roman, serif;
+}
+
+.newsSecBtm{
+    margin-top: 50px;
+    position: relative;
+}
+
+.newsSlide{
+    height: 370px;
+    padding: 15px;
+    box-shadow: 0 0 16px 0px rgba(0,0,0, 0.06);
+    border: 1px solid rgba(0,0,0, 0.10);
+    /* overflow: hidden; */
+}
+
+.newsimgFig{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.newsimgFig img{
+    width: 100%;
+    height: 100%;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+
+.newsSlide:hover .newsimgFig img{
+    transform: scale(1.15);
+}
+
+.newsText p{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: Times New Roman, serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-height: 66px;
+    overflow: hidden;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 100%;
+    color: #151515;
+}
+
+.newsText p:hover{
+    color: #151515;
+}
+
+.newsSwiper{
+    overflow-y: visible;
+    position: static;
+}
+
+.newsSwiper .swiper-button-prev {
+    position: absolute;
+    top: -25px;
+    left: 0px;
+}
+
+.newsSwiper .swiper-button-prev::after {
+    content: '\f137';
+    font-family: fontawesome;
+    color: #224855;
+    font-size: 25px;
+}
+
+.newsSwiper .swiper-button-next {
+    position: absolute;
+    top: -25px;
+    left: 45px;
+}
+
+.newsSwiper .swiper-button-next::after {
+    content: '\f138';
+    font-family: fontawesome;
+    color: #224855;
+    font-size: 25px;
+}
+
+/* news section end */
+
 /* Responsive */
 
 @media (max-width: 1399px) {
 
     /* header part start */
 
-    .btmHeaderUl li a {
+    /* .btmHeaderUl li a {
         font-size: 11px;
-    }
+    } */
 
     .btmHeaderUl li {
         padding: 10px 10px;
@@ -1277,10 +1399,6 @@ a:hover {
 
     .btmHeaderUl li i {
         margin-left: 3px;
-    }
-
-    .btmHeaderUl li a {
-        font-size: 10px;
     }
 
     .HeadLogoTxt {
@@ -1364,6 +1482,18 @@ a:hover {
     }
 
     /* patient speak section end */
+
+    /* news section start */
+
+    .newsimgFig {
+        height: 200px;
+    }
+
+    .newsSlide {
+        height: 320px;
+    }
+
+    /* news section end */
 }
 
 @media (max-width: 991px) {
@@ -1537,6 +1667,28 @@ a:hover {
         padding-top: 20px;
     }
 
+    .HospitalAbtBtm .tab-content{
+        padding-top: 15px;
+    }
+
+    .HospitalAbtBtm .nav{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .tabBtnLink {
+        padding: 5px 10px !important;
+        margin: 0;
+    }
+
+    .tabBtnLink span {
+        font-size: 11px;
+    }
+
+    .tabBtnLink img {
+        width: 15px;
+    }
+
     .HeartList ul li {
         width: 47%;
     }
@@ -1549,6 +1701,7 @@ a:hover {
     .HeartList ul li a {
         font-size: 12px;
     }
+    
 
     /* excellence section end */
 
@@ -1559,6 +1712,14 @@ a:hover {
     }
 
     /* patient speak section end */
+
+    /* news section start */
+
+    .newsSecTop h5{
+        font-size: 20px;
+    }
+
+    /* news section end */
 }
 
 @media (max-width: 575px) {
@@ -1689,8 +1850,11 @@ a:hover {
         width: 100%;
     }
 
-
     /* patient speak section end */
+
+    .newsSwiper .swiper-button-next::after, .newsSwiper .swiper-button-prev::after{
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 480px) {
