@@ -121,7 +121,12 @@
         <div class="midheader">
             <div class="custContainer">
                 <div class="midheaderInn">
-                    <h4 class="HeadLogoTxt">Hospital</h4>
+                    <div class="headerLogoDiv">
+                        <figure class="headLogoFig">
+                            <img src="assets/images/logo.png" alt="logo">
+                        </figure>
+                        <h4 class="HeadLogoTxt">Lifeline Multispeciality Hospital</h4>
+                    </div>
                     <div class="SerInpDiv">
                         <input type="search" placeholder="find hospitals, locations, doctors..">
                         <button class="headSerBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -149,7 +154,7 @@
                             <li class="respHeadLi"><a href="#" class="respHeadLiAn"><i class="fa-solid fa-truck-medical"></i></a></li>
                             <li class="respHeadLi"><a href="#" class="respHeadLiAn"><i class="fa-solid fa-phone"></i></a></li>
                             <li class="respHeadLi"><button class="respHeadLiAn"><i class="fa-solid fa-magnifying-glass"></i></button></li>
-                            <li class="respHeadLi"><button class="respHeadLiAn"><i class="fa-solid fa-bars-staggered"></i></button></li>
+                            <li class="respHeadLi" onclick="openSideBar()"><button class="respHeadLiAn"><i class="fa-solid fa-bars-staggered"></i></button></li>
                         </ul>
                     </div>
                 </div>
@@ -159,15 +164,46 @@
             <div class="custContainer">
                 <div class="btmheaderInn">
                     <ul class="btmHeaderUl">
-                        <li><a href="#">Patient Care<i class="fa-solid fa-caret-down"></i></a></li>
-                        <li><a href="#">Centres Of Excellence<i class="fa-solid fa-caret-down"></i></a></li>
-                        <li><a href="#">Procedures<i class="fa-solid fa-caret-down"></i></a></li>
-                        <li><a href="#">International Patients<i class="fa-solid fa-caret-down"></i></a></li>
-                        <li><a href="#">Academics & Research<i class="fa-solid fa-caret-down"></i></a></li>
-                        <li><a href="#">Contact Us<i class="fa-solid fa-caret-down"></i></a></li>
-                        <li><a href="#">Corporate<i class="fa-solid fa-caret-down"></i></a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Facilities & Services</a></li>
+                        <li><a href="#">Departments</a></li>
+                        <li><a href="#">Doctors</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sidebar menu -->
+
+    <section class="sidebarSection">
+        <div class="innerSidebar">
+            <button class="closeSidebarBtn" onclick="closeSideBar()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="sidebarTop">
+                <a href="#">
+                    <div class="sideLogoDiv">
+                        <figure class="sideLogoFig">
+                            <img src="assets/images/logo.png" alt="logo">
+                        </figure>
+                        <h4 class="SideLogoTxt">Lifeline Multispeciality Hospital</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="sidebarBtm">
+                <ul class="sidebarUl">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Facilities & Services</a></li>
+                    <li><a href="#">Departments</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </div>
         </div>
     </section>

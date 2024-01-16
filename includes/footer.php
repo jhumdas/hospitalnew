@@ -171,7 +171,6 @@
     </div>
 </footer> -->
 
-
 <section class="footer">
     <div class="custContainer">
         <div class="row">
@@ -329,21 +328,70 @@
     </div>
 </section>
 
+<!-- book us button -->
 
+<div class="bookBtndiv">
+    <button class="bookBtn" id="bookBtn">QUICK BOOK</button>
+</div>
 
+<!-- book us modal -->
 
+<section class="bookusSec" id="bookModal">
+    <div class="bookUsInn">
+        <div class="modalclose">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <h5 class="bookusHead">Request A Call Back</h5>
+        <div class="bookusBtm">
+            <div class="bookradioDiv">
+                <div class="bookradio">
+                    <input type="radio" id="appointment" name="book" value="appointment">
+                    <label for="appointment">Book Appointment</label>
+                </div>
 
+                <div class="bookradio">
+                    <input type="radio" id="healthcheck" name="book" value="healthcheck">
+                    <label for="healthcheck">Book Health Check</label>
+                </div>
 
+                <div class="bookradio">
+                    <input type="radio" id="secondopinion" name="book" value="secondopinion">
+                    <label for="secondopinion">Book Second Opinion</label>
+                </div>
+            </div>
 
+            <div class="bookform">
+                <div class="form-group">
+                    <select name="city" id="city">
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </select>
+                </div>
 
+                <div class="form-group">
+                    <input type="text" placeholder="Name*">
+                </div>
 
+                <div class="form-group">
+                    <input type="text" placeholder="Email*">
+                </div>
 
+                <div class="form-group" id="modalFrmFlx">
+                    <input type="text" placeholder="Phone*">
+                    <button class="sendotp">SEND OTP</button>
+                </div>
 
-
-
-
-
-
+                <div class="modalFrmBtnDiv">
+                    <button class="modalfrmsubmit">Submit Request</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!-- bootstrap -->
@@ -358,6 +406,11 @@
 <!-- js link -->
 
 <script src="assets/script/script.js"></script>
+
+<!-- jquery -->
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
 
 </body>
 
