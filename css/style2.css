@@ -185,37 +185,53 @@
     text-decoration: underline;
 }
 
-.historyiMG{
-width: 100%;
-height:300px;
-margin-bottom: 20px;
-margin-top: 30px;
+.histSection {
+    width: 100%;
+    height: auto;
+    background: rgba(247, 245, 245, 1);
+    padding: 30px 0px;
 }
-.historyiMG img{
+
+.historyContain{
+    padding: 15px 0px;
+}
+
+.historyiMG {
+    width: 100%;
+    height: 360px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.historyiMG img {
     width: 100%;
     height: 100%;
 }
-.knowBtn{
+
+.knowBtn {
     margin-top: 20px;
 }
-.knowBtn a{
+
+.knowBtn a {
     color: #224855;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
 }
-.knowBtn a i{
+
+.knowBtn a i {
     padding-left: 7px;
 }
-.historyPara{
+
+.historyPara {
     color: #000;
     font-size: 13px;
     line-height: 22px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 6; 
-            line-clamp: 6;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
     -webkit-box-orient: vertical;
 }
 
@@ -248,7 +264,8 @@ margin-top: 30px;
     .viewBtn a {
         font-size: 13px;
     }
-    .historyiMG{
+
+    .historyiMG {
         height: 260px;
     }
 }
@@ -287,6 +304,18 @@ margin-top: 30px;
     .careTabBtn {
         gap: 12px;
     }
+
+    .histSection{
+        padding: 15px 0px;
+    }
+
+    .historyContain .whyusHead{
+        margin-top: 0;
+    }
+
+    .knowBtn a {
+        font-size: 12px;
+    }
 }
 
 @media(max-width:575px) {
@@ -309,33 +338,41 @@ margin-top: 30px;
     .footerTitle h6 {
         margin-top: 15px;
     }
+
     .careBtn {
         width: 210px;
     }
 
 }
-@media(max-width:480px){
+
+@media(max-width:480px) {
     .careImg {
         height: 275px;
     }
-    .careSection{
+
+    .careSection {
         padding: 20px 0px;
     }
+
     .careBtn {
         width: 100%;
         height: 37px;
     }
+
     .historyiMG {
         height: 235px;
     }
+
     .knowBtn {
         margin-top: 10px;
     }
-    .knowBtn a{
+
+    .knowBtn a {
         font-size: 12px;
     }
+
     .careSection .row {
         gap: 20px;
     }
-    
+
 }
