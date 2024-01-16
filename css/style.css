@@ -310,6 +310,7 @@ a:hover {
 .btmHeaderUl li i {
     color: #000;
     margin-left: 8px;
+    font-size: 10px;
 }
 
 .btmHeaderUl li:hover a,
