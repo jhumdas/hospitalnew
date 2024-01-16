@@ -45,9 +45,11 @@
 
 <?php include 'whychooseus.php' ?>
 
+<?php include 'connectwithus.php' ?>
+
 <?php include 'excellence.php' ?>
 
- <?php include 'care.php' ?> 
+<?php include 'care.php' ?> 
 
 <?php include 'patientspeak.php' ?>
 
