@@ -94,12 +94,14 @@ a:hover {
     transform: translate(-50%, -50%);
     background-color: #fff;
     width: 450px;
+    border-radius: 5px;
 }
 
 .modalclose {
     position: absolute;
     right: 10px;
     top: 10px;
+    cursor: pointer;
 }
 
 .modalclose i {
@@ -113,6 +115,7 @@ a:hover {
     color: #fff;
     font-size: 17px;
     font-weight: 500;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .bookusBtm {
@@ -145,11 +148,11 @@ a:hover {
     display: block;
     padding: 7px 8px;
     width: 100%;
-    border: 1px solid #ccc;
+    border-radius: 3px;
     background-color: #fff;
     border: 1px solid #D0D0D0;
     font-size: 14px;
-    border-radius: 0px;
+    border-radius: 3px;
 }
 
 .bookform input:focus,
@@ -167,13 +170,21 @@ a:hover {
 .sendotp {
     width: 30%;
     background: #237d9e;
-    border: 1px solid #000;
+    border: 1px solid #237d9e;
+    border-radius: 3px;
     display: inline-block;
     padding: 7px 10px;
     text-align: center;
     color: #fff;
     font-size: 12px;
     font-weight: 500;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+
+.sendotp:hover{
+    background: transparent;
+    color: #237d9e;
 }
 
 .modalFrmBtnDiv {
@@ -186,12 +197,19 @@ a:hover {
 .modalfrmsubmit {
     background: #ffc107;
     color: #000;
-    border: none;
+    border: 1px solid #ffc107;
     outline: 0;
     padding: 10px 12px;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
+    border-radius: 3px;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+
+.modalfrmsubmit:hover{
+    background: transparent;
 }
 
 /* sidebar start */
@@ -261,6 +279,10 @@ a:hover {
     text-align: center;
 }
 
+.SideLogoTxt:hover{
+    color: #237d9e;
+}
+
 .sidebarUl li {
     border-bottom: 1px solid #eaeaea;
 }
@@ -279,6 +301,71 @@ a:hover {
 .sidebarUl li a:hover {
     background-color: #237d9e;
     color: #fff;
+}
+
+/* back to top button */
+
+.backtoTopBtn {
+    background-color: #224855;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 0px #ccc;
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 20;
+}
+
+.backtoTopBtn i{
+    color: #fff;
+    font-size: 20px;
+    animation: UpDown 2s ease-in-out infinite;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.backtoTopBtn:hover {
+    cursor: pointer;
+}
+
+.backtoTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+@keyframes UpDown{
+    0% {
+        bottom: -6px;
+    }
+    50% {
+        bottom: 5px;
+    }
+    100% {
+        bottom: -6px;
+    }
+}
+
+/* sticky header */
+
+.pageheader {
+    position: relative;
+    transition: 0.3s;
+}
+
+.pageheader.is-sticky {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 /* Header start */
@@ -373,6 +460,10 @@ a:hover {
     border-bottom: 1px solid #237D9E;
     padding: 3px 0px;
     text-transform: uppercase;
+}
+
+.HeadLogoTxt{
+    color: #237d9e;
 }
 
 .SerInpDiv {
@@ -502,6 +593,48 @@ a:hover {
     font-size: 18px;
     background-color: transparent;
     border: 0;
+}
+
+.searchDivRes{
+    width: 100%;
+    margin: 8px 0px;
+    display: none;
+}
+
+.serDivResInn{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #237d9e;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.searchDivResInp{
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.searchDivResInp::placeholder{
+    font-size: 12px;
+}
+
+.searchDivResIcon{
+    width: 10%;
+    height: 100%;
+    background-color: #237d9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchDivResIcon i{
+    color: #fff;
+    font-size: 15px;
 }
 
 /* bottom header */
@@ -905,7 +1038,7 @@ a:hover {
     -webkit-box-orient: vertical;
 }
 
-.connectVidHead:hover{
+.connectVidHead:hover {
     color: #262626;
 }
 
@@ -950,7 +1083,7 @@ a:hover {
     padding-top: 40px;
 }
 
-.HospitalAbtBtm .nav{
+.HospitalAbtBtm .nav {
     display: flex;
     flex-direction: column;
 }
@@ -1078,7 +1211,7 @@ a:hover {
     margin-bottom: 15px;
 }
 
-.highlightList{
+.highlightList {
     padding-top: 15px;
 }
 
@@ -1266,17 +1399,17 @@ a:hover {
 
 /* news section start */
 
-.newsSec{
+.newsSec {
     width: 100%;
     height: auto;
     padding: 30px 0px;
 }
 
-.newsSecTop{
+.newsSecTop {
     text-align: center;
 }
 
-.newsSecTop p{
+.newsSecTop p {
     color: #9A9A9A;
     font-size: 12px;
     line-height: 20px;
@@ -1285,7 +1418,7 @@ a:hover {
     padding-bottom: 10px;
 }
 
-.newsSecTop h5{
+.newsSecTop h5 {
     font-size: 25px;
     font-weight: 600;
     color: #224855;
@@ -1293,37 +1426,37 @@ a:hover {
     font-family: Times New Roman, serif;
 }
 
-.newsSecBtm{
+.newsSecBtm {
     margin-top: 50px;
     position: relative;
 }
 
-.newsSlide{
+.newsSlide {
     height: 370px;
     padding: 15px;
-    box-shadow: 0 0 16px 0px rgba(0,0,0, 0.06);
-    border: 1px solid rgba(0,0,0, 0.10);
+    box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.10);
     /* overflow: hidden; */
 }
 
-.newsimgFig{
+.newsimgFig {
     width: 100%;
     height: 250px;
     overflow: hidden;
 }
 
-.newsimgFig img{
+.newsimgFig img {
     width: 100%;
     height: 100%;
     transition-property: all;
     transition-duration: 700ms;
 }
 
-.newsSlide:hover .newsimgFig img{
+.newsSlide:hover .newsimgFig img {
     transform: scale(1.15);
 }
 
-.newsText p{
+.newsText p {
     font-size: 14px;
     line-height: 22px;
     font-family: Times New Roman, serif;
@@ -1339,11 +1472,11 @@ a:hover {
     color: #151515;
 }
 
-.newsText p:hover{
+.newsText p:hover {
     color: #151515;
 }
 
-.newsSwiper{
+.newsSwiper {
     overflow-y: visible;
     position: static;
 }
@@ -1632,7 +1765,7 @@ a:hover {
 
     /* connect with us start */
 
-    .connectwithUs{
+    .connectwithUs {
         padding: 30px 0px;
     }
 
@@ -1675,11 +1808,11 @@ a:hover {
         padding-top: 20px;
     }
 
-    .HospitalAbtBtm .tab-content{
+    .HospitalAbtBtm .tab-content {
         padding-top: 15px;
     }
 
-    .HospitalAbtBtm .nav{
+    .HospitalAbtBtm .nav {
         flex-direction: row;
         gap: 10px;
     }
@@ -1709,7 +1842,7 @@ a:hover {
     .HeartList ul li a {
         font-size: 12px;
     }
-    
+
 
     /* excellence section end */
 
@@ -1723,7 +1856,7 @@ a:hover {
 
     /* news section start */
 
-    .newsSecTop h5{
+    .newsSecTop h5 {
         font-size: 20px;
     }
 
@@ -1809,7 +1942,7 @@ a:hover {
         font-size: 16px;
     }
 
-    .connectPara{
+    .connectPara {
         font-size: 13px;
     }
 
@@ -1860,7 +1993,8 @@ a:hover {
 
     /* patient speak section end */
 
-    .newsSwiper .swiper-button-next::after, .newsSwiper .swiper-button-prev::after{
+    .newsSwiper .swiper-button-next::after,
+    .newsSwiper .swiper-button-prev::after {
         font-size: 22px;
     }
 }

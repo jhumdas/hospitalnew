@@ -15,7 +15,7 @@
                     </figure>
                 </div>
                 <div class="patSpkRgt">
-                    <img src="./assets/images/patientSpeak2.png" alt="img">
+                    <img src="./assets/images/patientspeak2.png" alt="img">
                 </div>
             </div>
 

@@ -92,4 +92,44 @@ var swiper = new Swiper(".newsSwiper", {
   },
 });
 
+// sticky header on scroll
+
+const header = document.querySelector(".pageheader");
+const toggleClass = "is-sticky";
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll > 150) {
+    header.classList.add(toggleClass);
+  } else {
+    header.classList.remove(toggleClass);
+  }
+});
+
+// scroll to top button
+
+var btn = $('.backtoTopBtn');
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function (e) {
+  e.preventDefault();
+  $('html, body').animate({ scrollTop: 0 }, '300');
+});
+
+
+// search bar toggle in responsive
+
+$(document).ready(function () {
+  $("#ResSerBtn").click(function () {
+    $(".searchDivRes").slideToggle("slow");
+  });
+});
+
 

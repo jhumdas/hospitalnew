@@ -30,66 +30,6 @@
 </head>
 
 <body>
-    <!-- <header class="header">
-        <div class="marqHead">
-            <marquee behavior="" direction="" onMouseOver="this.stop()" onMouseOut="this.start()">
-                <p class="marqHdPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolores nostrum exercitationem, asperiores ratione sit eum quaerat recusandae at earum assumenda voluptates nihil dolorem optio corporis, culpa facilis nulla ipsum.</p>
-            </marquee>
-        </div>
-        <div class="midHeadDiv">
-            <div class="custContainer">
-                <div class="midInnerHeadDiv">
-                    <figure class="hospiLogoFig">
-                        <img src='assets/images/hospitalLogo.png' alt="..." />
-                    </figure>
-                    <ul class="mainMidMenusUl">
-                        <li class="mainMidMenusLi"><a href="#" class="mainMidMenusLiAn">I Want To</a></li>
-                        <li class="mainMidMenusLi"><a href="#" class="mainMidMenusLiAn">About AMRI</a></li>
-                        <li class="mainMidMenusLi"><a href="#" class="mainMidMenusLiAn">Blogs</a></li>
-                        <li class="mainMidMenusLi"><a href="#" class="mainMidMenusLiAn">Academics and Publications</a></li>
-                        <li class="mainMidMenusLi"><a href="#" class="mainMidMenusLiAn">Career</a></li>
-                    </ul>
-                    <div class="srchInpDiv">
-                        <input type="text" placeholder="Search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <ul class="respHeadUl">
-                        <li class="respHeadLi"><a href="#" class="respHeadLiAn"><i class="fa-solid fa-truck-medical"></i></a></li>
-                        <li class="respHeadLi"><a href="#" class="respHeadLiAn"><i class="fa-solid fa-phone"></i></a></li>
-                        <li class="respHeadLi"><button class="respHeadLiAn"><i class="fa-solid fa-magnifying-glass"></i></button></li>
-                        <li class="respHeadLi"><button class="respHeadLiAn"><i class="fa-solid fa-bars-staggered"></i></button></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="btmHeadDiv">
-            <div class="custContainer">
-                <div class="lwrBtmInnerDiv">
-                    <ul class="btmLeftMenuUl">
-                        <li class="btmLeftMenuLi"><a href="#" class="btmLeftMenuLiAn">Locations</a></li>
-                        <li class="btmLeftMenuLi"><a href="#" class="btmLeftMenuLiAn">Specialities</a></li>
-                        <li class="btmLeftMenuLi"><a href="#" class="btmLeftMenuLiAn">Find A Doctor</a></li>
-                        <li class="btmLeftMenuLi"><a href="#" class="btmLeftMenuLiAn">Services</a></li>
-                        <li class="btmLeftMenuLi"><a href="#" class="btmLeftMenuLiAn">International Patients</a></li>
-                    </ul>
-                    <ul class="lwrInnerRhtUl">
-                        <li class="lwrInnerRhtLi">
-                            <div class="lwrRhtIconDiv">
-                                <i class="fa-solid fa-truck-medical"></i>
-                            </div>
-                            <p class="lwrInrPara">24/7 AVAILABILITY</p>
-                        </li>
-                        <li class="lwrInnerRhtLi">
-                            <div class="lwrRhtIconDiv">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <p class="lwrInrPara">(033) 6680 0000</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header> -->
 
     <section class="header">
         <div class="topheader">
@@ -119,60 +59,73 @@
                 </div>
             </div>
         </div>
-        <div class="midheader">
-            <div class="custContainer">
-                <div class="midheaderInn">
-                    <div class="headerLogoDiv">
-                        <figure class="headLogoFig">
-                            <img src="assets/images/logo.png" alt="logo">
-                        </figure>
-                        <h4 class="HeadLogoTxt">Lifeline Multispeciality Hospital</h4>
-                    </div>
-                    <div class="SerInpDiv">
-                        <input type="search" placeholder="find hospitals, locations, doctors..">
-                        <button class="headSerBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                    <div class="headCallDiv">
-                        <div class="headCerti">
-                            <img src="assets/images/certify-award.jpg" alt="img">
+        <div class="pageheader">
+            <div class="midheader">
+                <div class="custContainer">
+                    <div class="midheaderInn">
+                        <a href="index.php">
+                            <div class="headerLogoDiv">
+                                <figure class="headLogoFig">
+                                    <img src="assets/images/logo.png" alt="logo">
+                                </figure>
+                                <h4 class="HeadLogoTxt">Lifeline Multispeciality Hospital</h4>
+                            </div>
+                        </a>
+                        <div class="SerInpDiv">
+                            <input type="search" placeholder="find hospitals, locations, doctors..">
+                            <button class="headSerBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </div>
-                        <div class="d-flex" style="position: relative;">
-                            <div class="headCard" style="background-color: #DB0B20; margin-right: 2px; ">
-                                <h5>EMERGENCY</h5>
-                                <p>1066</p>
+                        <div class="headCallDiv">
+                            <div class="headCerti">
+                                <img src="assets/images/certify-award.jpg" alt="img">
                             </div>
-                            <div class="headCard" style="background-color: #224855;">
-                                <h5>LIFELINE</h5>
-                                <p>033-500-1066</p>
-                            </div>
-                            <div class="avlblimg">
-                                <img src="assets/images/24by7.jpg" alt="img">
+                            <div class="d-flex" style="position: relative;">
+                                <div class="headCard" style="background-color: #DB0B20; margin-right: 2px; ">
+                                    <h5>EMERGENCY</h5>
+                                    <p>1066</p>
+                                </div>
+                                <div class="headCard" style="background-color: #224855;">
+                                    <h5>LIFELINE</h5>
+                                    <p>033-500-1066</p>
+                                </div>
+                                <div class="avlblimg">
+                                    <img src="assets/images/24by7.jpg" alt="img">
+                                </div>
                             </div>
                         </div>
+                        <div class="RespMenu">
+                            <ul class="respHeadUl">
+                                <li class="respHeadLi"><a href="#" class="respHeadLiAn"><i class="fa-solid fa-truck-medical"></i></a></li>
+                                <li class="respHeadLi"><a href="#" class="respHeadLiAn"><i class="fa-solid fa-phone"></i></a></li>
+                                <li class="respHeadLi" id="ResSerBtn"><button class="respHeadLiAn"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                                <li class="respHeadLi" onclick="openSideBar()"><button class="respHeadLiAn"><i class="fa-solid fa-bars-staggered"></i></button></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="RespMenu">
-                        <ul class="respHeadUl">
-                            <li class="respHeadLi"><a href="#" class="respHeadLiAn"><i class="fa-solid fa-truck-medical"></i></a></li>
-                            <li class="respHeadLi"><a href="#" class="respHeadLiAn"><i class="fa-solid fa-phone"></i></a></li>
-                            <li class="respHeadLi"><button class="respHeadLiAn"><i class="fa-solid fa-magnifying-glass"></i></button></li>
-                            <li class="respHeadLi" onclick="openSideBar()"><button class="respHeadLiAn"><i class="fa-solid fa-bars-staggered"></i></button></li>
-                        </ul>
+
+                    <div class="searchDivRes">
+                        <div class="serDivResInn">
+                            <input type="search" placeholder="Find hospitals, locations, doctors..." class="searchDivResInp">
+                            <div class="searchDivResIcon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="btmheader">
-            <div class="custContainer">
-                <div class="btmheaderInn">
-                    <ul class="btmHeaderUl">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="#">Facilities & Services</a></li>
-                        <li><a href="#">Departments</a></li>
-                        <li><a href="#">Doctors</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
+            <div class="btmheader">
+                <div class="custContainer">
+                    <div class="btmheaderInn">
+                        <ul class="btmHeaderUl">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="#">Facilities & Services</a></li>
+                            <li><a href="#">Departments</a></li>
+                            <li><a href="#">Doctors</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,7 +139,7 @@
                 <i class="fa-solid fa-xmark"></i>
             </button>
             <div class="sidebarTop">
-                <a href="#">
+                <a href="index.php">
                     <div class="sideLogoDiv">
                         <figure class="sideLogoFig">
                             <img src="assets/images/logo.png" alt="logo">
@@ -197,8 +150,8 @@
             </div>
             <div class="sidebarBtm">
                 <ul class="sidebarUl">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About Us</a></li>
                     <li><a href="#">Facilities & Services</a></li>
                     <li><a href="#">Departments</a></li>
                     <li><a href="#">Doctors</a></li>
