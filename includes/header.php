@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
 
     <!-- Swiper Css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -117,13 +118,13 @@
                 <div class="custContainer">
                     <div class="btmheaderInn">
                         <ul class="btmHeaderUl">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="#">Facilities & Services</a></li>
-                            <li><a href="#">Departments</a></li>
-                            <li><a href="#">Doctors</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="index.php" class="headNavLink">Home</a></li>
+                            <li><a href="about.php" class="headNavLink">About Us</a></li>
+                            <li><a href="#" class="headNavLink">Facilities & Services</a></li>
+                            <li><a href="#" class="headNavLink">Departments</a></li>
+                            <li><a href="#" class="headNavLink">Doctors</a></li>
+                            <li><a href="#" class="headNavLink">Careers</a></li>
+                            <li><a href="contact.php" class="headNavLink">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -156,7 +157,7 @@
                     <li><a href="#">Departments</a></li>
                     <li><a href="#">Doctors</a></li>
                     <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>

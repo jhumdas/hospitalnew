@@ -1,3 +1,26 @@
+// header active
+
+window.addEventListener('load', function () {
+  let ch=window.location.href;
+  let chStr=String(ch);
+  if(chStr.indexOf('.php')===-1){
+      document.querySelector('.headNavLink').classList.add('activeHeadLink');
+  }
+  let chLen=chStr.lastIndexOf('/');
+  let chStrSlice=chStr.slice(chLen+1);
+  const savLink2=document.querySelectorAll('.headNavLink');
+  for(let link of savLink2){
+      if(link.getAttribute('href')===chStrSlice){
+          link.classList.add('activeHeadLink');
+      }
+  }
+  if(chStrSlice==="HVAC.php"){
+      document.querySelector('.induClrBtn').style.cssText+="color: #000;";
+  }else{
+      document.querySelector('.induClrBtn').style.cssText+="color: #486284;";
+  }
+})
+
 // banner swiper
 
 var swiper = new Swiper(".banSwiper", {
@@ -130,6 +153,36 @@ $(document).ready(function () {
   $("#ResSerBtn").click(function () {
     $(".searchDivRes").slideToggle("slow");
   });
+});
+
+// about client swiper
+
+var swiper = new Swiper(".clientSwiper", {
+  slidesPerView: 4,
+  spaceBetween: 15,
+  loop: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
+  breakpoints: {
+    300: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    575: {
+      slidesPerView: 3,
+      spaceBetween: 15,
+    },
+    991: {
+      slidesPerView: 4,
+      spaceBetween: 15,
+    },
+  },
 });
 
 

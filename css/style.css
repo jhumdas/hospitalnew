@@ -182,7 +182,7 @@ a:hover {
     transition-duration: 700ms;
 }
 
-.sendotp:hover{
+.sendotp:hover {
     background: transparent;
     color: #237d9e;
 }
@@ -208,7 +208,7 @@ a:hover {
     transition-duration: 700ms;
 }
 
-.modalfrmsubmit:hover{
+.modalfrmsubmit:hover {
     background: transparent;
 }
 
@@ -279,7 +279,7 @@ a:hover {
     text-align: center;
 }
 
-.SideLogoTxt:hover{
+.SideLogoTxt:hover {
     color: #237d9e;
 }
 
@@ -322,7 +322,7 @@ a:hover {
     z-index: 20;
 }
 
-.backtoTopBtn i{
+.backtoTopBtn i {
     color: #fff;
     font-size: 20px;
     animation: UpDown 2s ease-in-out infinite;
@@ -340,13 +340,15 @@ a:hover {
     visibility: visible;
 }
 
-@keyframes UpDown{
+@keyframes UpDown {
     0% {
         bottom: -6px;
     }
+
     50% {
         bottom: 5px;
     }
+
     100% {
         bottom: -6px;
     }
@@ -462,7 +464,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-.HeadLogoTxt{
+.HeadLogoTxt {
     color: #237d9e;
 }
 
@@ -595,13 +597,13 @@ a:hover {
     border: 0;
 }
 
-.searchDivRes{
+.searchDivRes {
     width: 100%;
     margin: 8px 0px;
     display: none;
 }
 
-.serDivResInn{
+.serDivResInn {
     display: flex;
     justify-content: space-between;
     border: 1px solid #237d9e;
@@ -609,7 +611,7 @@ a:hover {
     height: 30px;
 }
 
-.searchDivResInp{
+.searchDivResInp {
     width: 90%;
     height: 100%;
     border: none;
@@ -619,11 +621,11 @@ a:hover {
     font-size: 14px;
 }
 
-.searchDivResInp::placeholder{
+.searchDivResInp::placeholder {
     font-size: 12px;
 }
 
-.searchDivResIcon{
+.searchDivResIcon {
     width: 10%;
     height: 100%;
     background-color: #237d9e;
@@ -632,7 +634,7 @@ a:hover {
     align-items: center;
 }
 
-.searchDivResIcon i{
+.searchDivResIcon i {
     color: #fff;
     font-size: 15px;
 }
@@ -642,6 +644,7 @@ a:hover {
 .btmheader {
     border-top: 1px solid #EAEAEA;
     border-bottom: 1px solid #EAEAEA;
+    padding: 6px 0px;
 }
 
 .btmHeaderUl {
@@ -673,9 +676,25 @@ a:hover {
     font-size: 10px;
 }
 
-.btmHeaderUl li:hover a,
-.btmHeaderUl li:hover i {
+.btmHeaderUl li:hover .headNavLink,
+.btmHeaderUl li:hover .headNavLink {
     color: #237d9e;
+}
+
+.activeHeadLink {
+    color: #237D9E !important;
+    font-weight: 700;
+    position: relative;
+}
+
+.activeHeadLink::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 60%;
+    height: 2px;
+    background-color: #237D9E;
 }
 
 /* Header end */
@@ -1509,6 +1528,179 @@ a:hover {
 
 /* news section end */
 
+/* home page end */
+
+/* contact page start */
+
+/* contact box part */
+
+.ContactTopSec {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    background-color: #224855;
+}
+
+.contactTopInn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactTopDiv {
+    width: 24%;
+    color: #fff;
+    border-right: 1px solid #8a8a8a;
+    padding: 0px 20px;
+}
+
+.contactTopDiv:last-child {
+    border: none;
+}
+
+.contactTopDiv i {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contactTopDivHead {
+    color: #fff;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 8px 0;
+    font-family: "Lato", sans-serif;
+}
+
+.contactTopDivPara {
+    color: #fff;
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+.contactTopLink {
+    color: #FCBA12;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+.contactTopLink:hover {
+    color: #FCBA12;
+}
+
+/* contact us form */
+
+.contactForm {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.contactformTop {
+    text-align: center;
+}
+
+.contactHead {
+    font-size: 25px;
+    font-weight: 600;
+    color: #224855;
+    margin-bottom: 10px;
+    font-family: Times New Roman, serif;
+}
+
+.contactPara {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.contactformBtm{
+    padding-top: 30px;
+}
+
+.contactformBtm form{
+    width: 60%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.contactformBtm input{
+    display: block;
+    width: 100%;
+    border: 1px solid #d0d0d0;
+    background-color: #fff;
+    outline: 0;
+    padding: 12px 10px;
+    font-size: 14px;
+}
+
+.contactformflex select{
+    width: 100%;
+    border: 1px solid #d0d0d0;
+    background-color: #fff;
+    outline: 0;
+    padding: 12px 10px;
+    font-size: 14px;
+}
+
+.contactformBtm textarea{
+    display: block;
+    width: 100%;
+    border: 1px solid #d0d0d0;
+    background-color: #fff;
+    outline: 0;
+    resize: none;
+    padding: 12px 10px;
+}
+
+.contactformflex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.contactformflex input, .contactformflex select{
+    width: 50%;
+}
+
+.contactSubmitBtn{
+    background: #224855;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+
+.contactSubmitBtn:hover{
+    background-color: #237d9e;
+}
+
+
+/* contact page end */
+
 /* Responsive */
 
 @media (max-width: 1399px) {
@@ -1531,6 +1723,8 @@ a:hover {
 }
 
 @media (max-width: 1199px) {
+
+    /* home page start */
 
     /* header start */
 
@@ -1635,6 +1829,29 @@ a:hover {
     }
 
     /* news section end */
+
+    /* home page end */
+
+    /* contact page start */
+
+    .contactTopDivHead {
+        font-size: 16px;
+    }
+
+    .contactTopDivPara {
+        font-size: 12px;
+    }
+
+    .contactTopLink {
+        font-size: 12px;
+    }
+
+    .contactTopDiv i {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    /* contact page end */
 }
 
 @media (max-width: 991px) {
@@ -1716,6 +1933,8 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+
+    /* home page start */
 
     /* banner part start */
 
@@ -1861,6 +2080,31 @@ a:hover {
     }
 
     /* news section end */
+
+    /* home page end */
+
+    /* contact page start */
+
+    .contactTopInn {
+        flex-wrap: wrap;
+    }
+
+    .contactTopDiv {
+        width: 100%;
+        color: #fff;
+        border: none;
+        padding: 15px 0px;
+        border-bottom: 1px solid #8a8a8a;
+        /* text-align: center; */
+    }
+
+    .contactTopDivPara,
+    .contactTopDivHead {
+        height: auto;
+    }
+
+
+    /* contact page end */
 }
 
 @media (max-width: 575px) {

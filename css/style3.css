@@ -63,7 +63,7 @@ figure {
 }
 
 .divabout {
-    background-color: #237d9e;
+    background-color: #224855;
     width: 100%;
     position: absolute;
     width: 100%;
@@ -75,16 +75,19 @@ figure {
     transform: translate(-50%, -50%);
     overflow: hidden;
     transform: translate(-50%, -50%);
+    padding: 10px 0px;
 }
 
 .aboutbgtxt {
     color: #ffffff;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     line-height: 25px;
     padding: 20px 0px;
     position: relative;
+    font-family: Times New Roman, serif;
+    letter-spacing: 1px;
 }
 
 .aboutbgtxt::after {
@@ -92,7 +95,8 @@ figure {
     content: "";
     border-bottom: 2px solid #fff;
     z-index: 9;
-    width: 55%;
+    bottom: -5px;
+    width: 25%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -101,12 +105,223 @@ figure {
 
 .abtspcltxt {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 26px;
     padding: 20px 40px;
-
 }
+
+/* company overview start */
+
+.compOverview {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 30px;
+}
+
+.PageHead {
+    font-size: 25px;
+    font-weight: 600;
+    color: #224855;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Times New Roman, serif;
+    position: relative;
+}
+
+.PageHead::after {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 2px;
+    background-color: #224855;
+}
+
+.compOverPara {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.compOverviewBtm {
+    padding-top: 30px;
+}
+
+.overviewimgFig {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #dee2e6;
+    padding: 4px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.overviewimgFig img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+
+.overviewimgFig:hover img {
+    transform: scale(1.15);
+}
+
+
+/* company overview end */
+
+/* community start */
+
+.community {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.communitybtm {
+    padding-top: 20px;
+}
+
+.communitybtm ul li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.communitybtm ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    /* transform: translateY(-50%); */
+    width: 10px;
+    height: 10px;
+    background-color: #224855;
+}
+
+/* community end */
+
+/* clients section start */
+
+.clientsSec {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.clientsBtm {
+    padding-top: 20px;
+}
+
+.clientSlide {
+    width: 100%;
+}
+
+.clientimgFig {
+    width: 150px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.clientSlide img {
+    width: 100%;
+    height: 100%;
+}
+
+/* clients section end */
+
+/* chairman msg start */
+
+.chairmanMsg {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.chairmanoverlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(21 63 82 / 70%);
+    z-index: 1;
+}
+
+.chairmanMsgInn {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chairmanFig {
+    width: 40%;
+    height: auto;
+}
+
+.chairmanFig img {
+    width: 100%;
+    height: 100%;
+}
+
+.chairmanTxt {
+    width: 55%;
+}
+
+.chairmanTopText {
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: "Freehand", cursive;
+    padding-left: 10px;
+    position: relative;
+}
+
+.chairmanTopText::before {
+    content: '\f10d';
+    font-family: fontawesome;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    color: #fff;
+    font-size: 40px;
+}
+
+/* .chairmanTopText::after {
+    content: '\f10e';
+    font-family: fontawesome;
+    position: absolute;
+    bottom: -20px;
+    color: #fff;
+    font-size: 40px;
+} */
+
+.chairmanName{
+    color: #fff;
+    font-size: 22px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-family: "Freehand", cursive;
+}
+
+
+/* chairman msg end */
 
 @media(max-width:1199px) {
     .abtspcltxt {
@@ -129,9 +344,18 @@ figure {
     .aboutbgtxt {
         font-size: 17px;
     }
+
+    .chairmanTopText {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .chairmanTopText::before{
+        font-size: 30px;
+    }
 }
 
-@media(max-width:992px) {
+@media(max-width:991px) {
     .aboutbgtxt::after {
         position: absolute;
         content: "";
@@ -151,11 +375,25 @@ figure {
         line-height: 15px;
         padding: 15px 40px;
     }
+
+    .chairmanMsgInn{
+        flex-direction: column;
+    }
+
+    .chairmanTxt {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .chairmanFig {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media(max-width:767px) {
     .divabout {
-        background-color: #237d9e;
+        background-color: #224855;
         width: 100%;
         position: relative;
         width: 100%;
@@ -182,9 +420,29 @@ figure {
         line-height: 17px;
         padding: 15px 40px;
     }
+
+    .PageHead {
+        font-size: 20px;
+    }
+
+    .compOverview {
+        padding: 30px 0px;
+    }
+
+    .compOverPara {
+        font-size: 13px;
+    }
+
+    .overviewimgFig {
+        height: 200px;
+    }
+
+    .clientimgFig {
+        width: 120px;
+    }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .aboutbgtxt {
         font-size: 15px;
     }
@@ -192,11 +450,61 @@ figure {
     .aboutbgtxt::after {
         width: 75%;
     }
+
     .aboutbannerdiv {
         width: 100%;
         height: 250px;
         position: relative;
     }
+
+    .compOverview {
+        padding: 10px 0px 30px;
+    }
+
+    .compOverPara {
+        font-size: 12px;
+    }
+
+    .overviewimgFig {
+        height: auto;
+    }
+
+    .community {
+        padding: 10px 0px 20px;
+    }
+
+    .clientsSec {
+        padding: 10px 0px 20px;
+    }
+
+    .communitybtm {
+        padding-top: 0px;
+    }
+
+    .communitybtm ul li {
+        font-size: 13px;
+        padding-left: 15px;
+    }
+
+    .communitybtm ul li::before {
+        width: 8px;
+        height: 8px;
+    }
+
+    .chairmanTopText {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .chairmanTopText::before {
+        font-size: 25px;
+    }
+
+    .chairmanName {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
 }
 
 @media(max-width:480px) {
@@ -204,14 +512,16 @@ figure {
         color: #ffffff;
         font-size: 12px;
         font-weight: 500;
-        line-height: 15px;
-        padding: 15px 40px;
+        line-height: 20px;
+        padding: 15px;
     }
+
     .aboutbannerdiv {
         width: 100%;
         height: 190px;
         position: relative;
     }
+
     .abouthypertxt p {
         color: #ffffff;
         font-size: 15px;
@@ -220,11 +530,16 @@ figure {
         margin-left: 4px;
         text-transform: uppercase;
     }
+
     .abouthypertxt a {
         color: #ffffff;
         font-size: 14px;
         font-weight: 800;
         line-height: 20px;
+    }
+
+    .clientimgFig {
+        width: 100px;
     }
 }
 
@@ -234,10 +549,6 @@ figure {
     }
 
     .abtspcltxt {
-        color: #ffffff;
-        font-size: 11px;
-        font-weight: 500;
-        line-height: 14px;
         padding: 13px 24px;
     }
 }
