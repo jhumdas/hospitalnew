@@ -617,6 +617,8 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: all;
+    transition-duration: 700ms;
 }
 
 .Banreadbtn:hover {
@@ -986,6 +988,7 @@ a:hover {
 .tabBan {
     width: 100%;
     height: auto;
+    margin-bottom: 12px;
 }
 
 .tabBan img {
@@ -999,6 +1002,7 @@ a:hover {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 8px;
+    margin-top: 10px;
 }
 
 .tabContentPara {
@@ -1072,6 +1076,10 @@ a:hover {
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 15px;
+}
+
+.highlightList{
+    padding-top: 15px;
 }
 
 .highlightList ul li {
