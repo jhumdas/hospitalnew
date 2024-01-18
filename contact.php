@@ -15,7 +15,7 @@
 <!-- contact us form -->
 
 <section class="contactform">
-    <div class="container-fluid">
+    <div class="custContainer">
         <div class="contact_top">
             <h3 class="contacttophead">LET'S GET IN TOUCH</h3>
             <p class="contacttoppara">Lifeline Hospital is always looking to make things easier for you. Our aim is to provide our customers with the best medical facilities, constant care, and reliable support. If you would like to get in touch with a doctor from a specific department, would like some specific information about the services we provide, or just have a question for us, please fill up the Form given below and we will get back to you.</p>

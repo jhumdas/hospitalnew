@@ -1609,7 +1609,7 @@ a:hover {
 .contactform {
     width: 100%;
     height: auto;
-    padding: 40px;
+    padding: 30px 0px;
 }
 
 .contact_top {
@@ -2115,6 +2115,186 @@ a:hover {
 
 /* department page end */
 
+/* career page start */
+
+.CareerSec {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.CareerSecTop {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.CareerSecHead {
+    color: #224855;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: Times New Roman, serif;
+}
+
+.CareerSecBtm {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-top: 15px;
+}
+
+.CareerCard {
+    width: 32%;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    height: 250px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.jobHead {
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 10px;
+}
+
+.jobDet {
+    color: #000;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 10px;
+}
+
+.jobDet span {
+    color: #262626;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.careerCardBtm {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.careerCardBtn {
+    background-color: rgb(249 121 74);
+    padding: 8px 12px;
+    color: #fff;
+    border: none;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+
+.careerCardBtn:hover {
+    background-color: #237D9E;
+    color: #fff;
+}
+
+/* why join us */
+
+.facility {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    color: #224855;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: Times New Roman, serif;
+}
+
+.facility-card {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    height: 400px;
+    /* height: auto; */
+}
+
+.card-img {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+}
+
+.card-imgDiv {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition-property: all;
+    transition-duration: 700ms;
+}
+
+.card-img:hover .card-imgDiv{
+    transform: scale(1.15);
+}
+
+.facility-dtl {
+    padding: 20px 10px;
+}
+
+.facility-dtl h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    white-space: wrap;
+    overflow: hidden;
+    margin-bottom: 10px;
+    /* text-overflow: ellipsis; */
+    color: #005368;
+    text-align: center;
+}
+
+.facility-dtl P {
+    font-size: 14px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* career page end */
+
 /* Responsive */
 
 @media (max-width: 1399px) {
@@ -2362,15 +2542,29 @@ a:hover {
 
     /* contact page start */
 
-    .contactform {
-        padding: 30px 15px;
-    }
+    /* .contactform {
+        padding: 30px 0px;
+    } */
 
     .contactmain {
         padding: 40px 20px;
     }
 
     /* contact page end */
+
+    /* career page start */
+
+    .CareerSecBtm {
+        justify-content: space-between;
+        column-gap: 0;
+        row-gap: 20px;
+    }
+
+    .CareerCard {
+        width: 48%;
+    }
+
+    /* career page end */
 
 }
 
@@ -2630,6 +2824,19 @@ a:hover {
     }
 
     /* department page end */
+
+    /* career page start */
+
+    .jobHead {
+        font-size: 14px;
+    }
+
+    .jobDet,
+    .jobDet span {
+        font-size: 13px;
+    }
+
+    /* career page end */
 }
 
 @media (max-width: 575px) {
@@ -2839,6 +3046,42 @@ a:hover {
     }
 
     /* contact page end */
+
+    /* career page start */
+
+    .CareerCard {
+        width: 100%;
+        height: auto;
+    }
+
+    .careerCardBtm {
+        position: static;
+        margin-top: 15px;
+    }
+
+    .careerCardBtn {
+        width: 120px;
+    }
+
+    .facility{
+        padding: 15px 0px;
+    }
+
+    .facility-dtl h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .facility-dtl P {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .facility-card{
+        height: 350px;
+    }
+
+    /* career page end */
 }
 
 @media (max-width: 480px) {
@@ -2923,6 +3166,15 @@ a:hover {
     }
 
     /* department page end */
+
+    /* career page start */
+
+    .card-img {
+        height: 125px;
+    }
+
+
+    /* career page end */
 }
 
 @media (max-width: 420px) {
