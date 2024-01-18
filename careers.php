@@ -132,4 +132,62 @@
     </div>
 </section>
 
+<!-- join us form -->
+
+<section class="career-frm" id="career-form-id">
+    <div class="custContainer">
+        <div class="career-frm-content">
+            <div class="row">
+                <div class="col-12 col-md-6 careerformimgdiv">
+                    <h3 class="career-frm-heading">Drop Your CV</h3>
+                    <div class="career-image-group">
+                        <div class="career-frm-image">
+                            <img src="assets/images/enrollform1.jpg" alt="img">
+                        </div>
+                        <div class="career-frm-image">
+                            <img src="assets/images/enrollform2.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="career-image-group">
+                        <div class="career-frm-image">
+                            <img src="assets/images/enrollform3.jpg" alt="img">
+                        </div>
+                        <div class="career-frm-image">
+                            <img src="assets/images/enrollform4.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="career-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="">Full Name</label>
+                                <input type="name" class="form-control" id="" placeholder="Enter Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Email Address</label>
+                                <input type="email" class="form-control" id="" placeholder="Enter Email address">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Message (Cover Letter) </label>
+                                <textarea class="form-control" id="" rows="3" placeholder="Write a message here"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload CV </label>
+                                <input type="file" class="form-control-file" id="">
+                            </div>
+                            <div class="text-center subCarDiv">
+                                <button type="Submit" class="btns text-center">
+                                    <a href="#" class="form-send"> Send Application </a>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include 'includes/footer.php' ?>

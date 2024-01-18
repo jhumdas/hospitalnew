@@ -2259,7 +2259,7 @@ a:hover {
     transition-duration: 700ms;
 }
 
-.card-img:hover .card-imgDiv{
+.card-img:hover .card-imgDiv {
     transform: scale(1.15);
 }
 
@@ -2290,6 +2290,170 @@ a:hover {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+/* join us form */
+
+.career-frm {
+    background: #9bb9b994;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.career-frm-content {
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.career-frm-heading {
+    color: #005368;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.career-image-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.career-frm-image {
+    width: 100%;
+    height: 100%;
+}
+
+.career-frm-image img {
+    width: 85%;
+    height: auto;
+}
+
+.career-form label {
+    color: #005368;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.career-form input::placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.career-form textarea {
+    resize: none;
+}
+
+.career-form textarea::placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.career-form .form-control-file {
+    color: #000;
+    font-size: 15px;
+    border: none;
+    font-style: italic;
+}
+
+.career-form .form-control {
+    color: #000000;
+    font-size: 18px;
+}
+
+.career-form .btns {
+    padding: 8px 25px;
+    background-color: rgb(58, 155, 58);
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    height: 45px;
+}
+
+.career-form a.form-send {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.career-form .btns:hover {
+    background-color: #fc4c23;
+    transform: translate(0px, -5px);
+}
+
+.career-join {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.career-join-content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.carrer-join-image {
+    width: 1324px;
+    display: flex;
+    margin-top: 24px;
+    width: 1324px;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.career-join-single-image {
+    background-size: cover;
+    width: 300px;
+    min-width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 365px;
+    position: relative;
+    background-color: #0069a5;
+    margin-right: 40px !important;
+}
+
+.career-join-single-image-last {
+    margin-right: 0 !important;
+}
+
+.career-join-single-image::before {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 8px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #0000006c;
+}
+
+.career-image-text-paragraph {
+    top: 62%;
+    left: 5%;
+    right: 10%;
+    width: 100%;
+    position: absolute;
+}
+
+.career-image-text-paragraph h4 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.career-image-text-paragraph p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
 }
 
 
@@ -3063,7 +3227,7 @@ a:hover {
         width: 120px;
     }
 
-    .facility{
+    .facility {
         padding: 15px 0px;
     }
 
@@ -3077,7 +3241,7 @@ a:hover {
         line-height: 23px;
     }
 
-    .facility-card{
+    .facility-card {
         height: 350px;
     }
 
