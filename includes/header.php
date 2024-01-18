@@ -121,8 +121,8 @@
                             <li><a href="index.php" class="headNavLink">Home</a></li>
                             <li><a href="about.php" class="headNavLink">About Us</a></li>
                             <li><a href="#" class="headNavLink">Facilities & Services</a></li>
-                            <li><a href="#" class="headNavLink">Departments</a></li>
-                            <li><a href="#" class="headNavLink">Doctors</a></li>
+                            <li><a href="department.php" class="headNavLink">Departments</a></li>
+                            <li><a href="doctors.php" class="headNavLink">Doctors</a></li>
                             <li><a href="#" class="headNavLink">Careers</a></li>
                             <li><a href="contact.php" class="headNavLink">Contact Us</a></li>
                         </ul>
@@ -154,8 +154,8 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="#">Facilities & Services</a></li>
-                    <li><a href="#">Departments</a></li>
-                    <li><a href="#">Doctors</a></li>
+                    <li><a href="department.php">Departments</a></li>
+                    <li><a href="doctors.php">Doctors</a></li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                 </ul>

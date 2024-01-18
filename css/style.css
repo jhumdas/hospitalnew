@@ -687,7 +687,7 @@ a:hover {
     position: relative;
 }
 
-.activeHeadLink::after{
+.activeHeadLink::after {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -1606,100 +1606,514 @@ a:hover {
 
 /* contact us form */
 
-.contactForm {
+.contactform {
     width: 100%;
     height: auto;
-    padding: 30px 0px;
+    padding: 40px;
 }
 
-.contactformTop {
+.contact_top {
+    margin-bottom: 30px;
     text-align: center;
 }
 
-.contactHead {
+.contacttophead {
+    color: #224855;
     font-size: 25px;
     font-weight: 600;
-    color: #224855;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: Times New Roman, serif;
 }
 
-.contactPara {
+.contacttoppara {
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
 }
 
-.contactformBtm{
-    padding-top: 30px;
-}
-
-.contactformBtm form{
-    width: 60%;
+.contactmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
     margin: 0px auto;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 50px 30px;
+    box-shadow: 0px 2px 18px 7px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* backdrop-filter: blur(5px); */
 }
 
-.contactformBtm input{
-    display: block;
+.contacticon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contacticonwrap {
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px;
+}
+
+.contacticonwrap img {
     width: 100%;
-    border: 1px solid #d0d0d0;
-    background-color: #fff;
-    outline: 0;
-    padding: 12px 10px;
-    font-size: 14px;
+    height: 100%;
 }
 
-.contactformflex select{
+.contactleft {
+    width: 45%;
+    margin-right: 20px;
+    padding: 20px 15px;
+}
+
+.contactright {
+    width: 55%;
+    /* backdrop-filter: blur(2px); */
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.6);
+    padding: 20px 15px;
+    border-radius: 8px;
+}
+
+.contactright form {
     width: 100%;
-    border: 1px solid #d0d0d0;
-    background-color: #fff;
-    outline: 0;
-    padding: 12px 10px;
-    font-size: 14px;
+    padding: 20px 15px;
 }
 
-.contactformBtm textarea{
-    display: block;
+.contactright form input {
     width: 100%;
-    border: 1px solid #d0d0d0;
-    background-color: #fff;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
     outline: 0;
-    resize: none;
-    padding: 12px 10px;
+    font-style: italic;
 }
 
-.contactformflex{
+.contactright form select {
+    width: 49%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    outline: 0;
+    font-style: italic;
+}
+
+.contactformFlex {
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
 
-.contactformflex input, .contactformflex select{
-    width: 50%;
+.contactright form input::placeholder,
+.contactright form select::placeholder {
+    font-size: 14px;
+    color: #000;
 }
 
-.contactSubmitBtn{
-    background: #224855;
-    color: #fff;
-    cursor: pointer;
-    border: 1px solid transparent;
+.contactright form textarea::placeholder {
+    font-size: 14px;
+    color: #000;
+}
+
+.contactright form textarea {
+    width: 100%;
+    resize: none;
+    outline: 0;
+    padding: 5px 10px;
+    font-style: italic;
+    border: none;
+    border-radius: 8px;
+}
+
+.submitbtndiv {
+    display: flex;
+    justify-content: center;
+    align-items: "center";
+}
+
+.submitbtn {
+    width: 150px;
+    height: 40px;
+    background-color: #246a00;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    outline: 0;
+    box-shadow: 0px 2px 13px 0px rgba(255, 254, 254, 0.7);
+}
+
+.contacthead {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 22px;
+}
+
+.contactpara {
+    margin: 15px 0px;
+    color: white;
     font-size: 15px;
+    line-height: 25px;
     font-weight: 500;
-    letter-spacing: .5px;
+    font-style: italic;
+}
+
+.contactadd {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+
+.contactadd i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #00ad00;
+}
+
+.contactadd p {
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.contactMap {
+    width: 100%;
+    height: auto;
+}
+
+.contactMap #Map {
+    height: 350px;
+    width: 100%;
+}
+
+/* contact page end */
+
+/* doctor page start */
+
+.docTopFilter {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.docTopInn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.docTopInn select {
+    min-width: 200px;
+    height: 40px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    outline: none;
+    border: 0;
+    background: none;
+    padding: 8px 10px;
+    box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #fff;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 72%, rgba(236, 236, 236, 1) 100%);
+    border-radius: 100px;
+}
+
+.docBtmDet {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.docBtmDetInn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.docDetCard {
+    width: 49%;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    box-shadow: 0 0 30px 0px rgb(0 0 0 / 30%);
+    ;
+}
+
+.docCardfig {
+    width: 30%;
+    height: auto;
+}
+
+.docCardfig img {
+    width: 100%;
+    height: 100%;
+}
+
+.docCardTxt {
+    width: 68%;
+}
+
+.docCardTxtTop {
+    height: 70px;
+    border-bottom: 1px solid #8a8a8a;
+    overflow: hidden;
+}
+
+.docCardName {
+    color: #237d9e;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.docCardProf {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.docCardTxtBtm {
+    padding-top: 15px;
+}
+
+.docCardQuali {
+    font-size: 13px;
+    line-height: 20px;
+    color: #000;
+    height: 65px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.docCardBookbtn {
+    background-color: rgb(249 121 74);
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
     padding: 8px 20px;
-    border-radius: 6px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
     transition-property: all;
     transition-duration: 700ms;
 }
 
-.contactSubmitBtn:hover{
+.docCardBookbtn:hover {
     background-color: #237d9e;
 }
 
+.docPgBtn {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
 
-/* contact page end */
+.docPgBtnInn {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.docPgBtnLink {
+    background-color: #fff;
+    border: 1px solid #237d9e;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #237d9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.docPgBtnLink:hover {
+    color: #237d9e;
+}
+
+.docPgBtnLink.active,
+.docPgBtnLink:focus {
+    background-color: #237d9e;
+    color: #fff;
+}
+
+/* doctor page end */
+
+/* department page start */
+
+.alldept {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.alldeptInn {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.alldetTop {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.alldetTophead {
+    font-size: 25px;
+    font-weight: 600;
+    color: #224855;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: Times New Roman, serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.alldetTophead::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    width: 100px;
+    height: 2px;
+    background-color: #224855;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.deptLi {
+    width: 32%;
+    border: 1px solid #E0E0E0;
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    background: #d7e6f3;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+
+.deptLi img {
+    width: 20px;
+    height: 20px;
+}
+
+.deptLi:hover {
+    background-color: #237d9e;
+    color: #fff;
+}
+
+/* department modal */
+
+.deptModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    display: none;
+}
+
+.detModalInn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.deptModal.openmodal {
+    display: block;
+}
+
+.deptmodalclose {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    background-color: #272727;
+    border: 2px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.deptmodalclose i {
+    font-size: 15px;
+    color: #fff;
+}
+
+.deptModalTop {
+    background-color: #237D9E;
+    padding: 10px 8px;
+}
+
+.deptModalTop p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.deptModalBtm {
+    max-height: 250px;
+    overflow-y: auto;
+    margin: 10px 0px;
+}
+
+.deptModalBtm p {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.deptModalBtm::-webkit-scrollbar {
+    width: 4px;
+}
+
+.deptModalBtm::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+
+.deptModalBtm::-webkit-scrollbar-thumb {
+    background-color: #8a8a8a;
+}
+
+/* department page end */
 
 /* Responsive */
 
@@ -1787,7 +2201,6 @@ a:hover {
         width: 40%;
     }
 
-
     /* connect with us end */
 
     /* excellence section start */
@@ -1852,9 +2265,23 @@ a:hover {
     }
 
     /* contact page end */
+
+    /* doctor page start */
+
+    .docCardfig {
+        width: 40%;
+    }
+
+    .docCardTxt {
+        width: 60%;
+    }
+
+    /* doctor page end */
 }
 
 @media (max-width: 991px) {
+
+    /* home page start */
 
     /* header part start */
 
@@ -1930,6 +2357,21 @@ a:hover {
     }
 
     /* patient speak section end */
+
+    /* home page end */
+
+    /* contact page start */
+
+    .contactform {
+        padding: 30px 15px;
+    }
+
+    .contactmain {
+        padding: 40px 20px;
+    }
+
+    /* contact page end */
+
 }
 
 @media (max-width: 767px) {
@@ -2009,7 +2451,6 @@ a:hover {
         padding: 5px 6px;
         font-size: 12px;
     }
-
 
     /* connect with us end */
 
@@ -2103,11 +2544,97 @@ a:hover {
         height: auto;
     }
 
+    .contactmain {
+        flex-direction: column;
+        padding: 10px 15px;
+    }
+
+    .contactleft {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .contactright {
+        width: 100%;
+    }
+
+    .contacttoppara {
+        font-size: 14px;
+    }
+
+    .contacttophead {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .contactpara {
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+
+    .contacticonwrap {
+        width: 25px;
+        height: 25px;
+    }
 
     /* contact page end */
+
+    /* doctor page start */
+
+    .docBtmDet {
+        padding: 10px 0px;
+    }
+
+    .docBtmDetInn {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .docDetCard {
+        width: 100%;
+    }
+
+    .docCardTxtTop {
+        height: auto;
+    }
+
+    .docCardQuali {
+        height: auto;
+    }
+
+    /* doctor page end */
+
+    /* department page start */
+
+    .alldetTophead {
+        font-size: 20px;
+    }
+
+    .alldeptInn {
+        justify-content: space-between;
+    }
+
+    .alldept {
+        padding: 15px 0px;
+    }
+
+    .deptLi {
+        width: 48%;
+        font-size: 12px;
+        padding: 8px 5px;
+    }
+
+    /* department page end */
 }
 
 @media (max-width: 575px) {
+
+    /* home page start */
 
     /* book modal */
 
@@ -2241,9 +2768,82 @@ a:hover {
     .newsSwiper .swiper-button-prev::after {
         font-size: 22px;
     }
+
+    /* home page end */
+
+    /* contact page start */
+
+    .contactleft {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .contactform {
+        padding: 20px 0px;
+    }
+
+    .contact_top {
+        margin-bottom: 15px;
+    }
+
+    .contact_top,
+    .contactpara {
+        font-size: 13px;
+    }
+
+    .contacthead {
+        font-size: 18px;
+    }
+
+    .contactadd {
+        padding: 5px 0px;
+    }
+
+    .contactadd p {
+        font-size: 12px;
+    }
+
+    .contactright form input::placeholder {
+        font-size: 12px;
+    }
+
+    .contactright form select::placeholder {
+        font-size: 12px;
+    }
+
+    .contactright form textarea::placeholder {
+        font-size: 12px;
+    }
+
+    .contactright form select {
+        font-size: 12px;
+    }
+
+    .submitbtn {
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .contactright form {
+        padding: 15px 0px;
+    }
+
+    .contactright {
+        padding: 10px 15px;
+    }
+
+    .contactadd i {
+        font-size: 17px;
+    }
+
+    /* contact page end */
 }
 
 @media (max-width: 480px) {
+
+    /* home page start */
 
     /* header part start */
 
@@ -2287,4 +2887,65 @@ a:hover {
     }
 
     /* banner part end */
+
+    /* home page end */
+
+    /* doctor page start */
+
+    .docCardName {
+        font-size: 13px;
+    }
+
+    .docCardProf {
+        font-size: 12px;
+    }
+
+    .docCardQuali {
+        font-size: 12px;
+    }
+
+    .docCardBookbtn {
+        margin-top: 12px;
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .docTopInn select {
+        min-width: auto;
+    }
+
+    /* doctor page end */
+
+    /* department page start */
+
+    .deptLi {
+        width: 100%;
+    }
+
+    /* department page end */
+}
+
+@media (max-width: 420px) {
+
+    /* doctor page start */
+
+    .docDetCard {
+        flex-direction: column;
+    }
+
+    .docCardTxt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .docCardfig {
+        margin: 0px auto;
+    }
+
+    .docTopInn select {
+        font-size: 13px;
+        padding: 6px 8px;
+    }
+
+    /* doctor page end */
 }

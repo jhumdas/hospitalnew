@@ -1,8 +1,108 @@
 <?php include 'includes/header.php'  ?>
 
+<!-- banner part -->
+
+<section class="aboutbanner">
+    <figure class="aboutbannerdiv">
+        <img class="" src="./assets/images/contactbanner.jpg">
+        <div class="abouthypertxt">
+            <a href="index.php" class="">HOME / </a>
+            <p>Contact us</p>
+        </div>
+    </figure>
+</section>
+
+<!-- contact us form -->
+
+<section class="contactform">
+    <div class="container-fluid">
+        <div class="contact_top">
+            <h3 class="contacttophead">LET'S GET IN TOUCH</h3>
+            <p class="contacttoppara">Lifeline Hospital is always looking to make things easier for you. Our aim is to provide our customers with the best medical facilities, constant care, and reliable support. If you would like to get in touch with a doctor from a specific department, would like some specific information about the services we provide, or just have a question for us, please fill up the Form given below and we will get back to you.</p>
+        </div>
+        <div class="contactmain" style="background-image: url('assets/images/contactform.jpg')">
+            <div class="contactleft">
+                <h3 class="contacthead">Contact Us</h3>
+                <p class="contactpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, porro.</p>
+
+                <div class="contact_address">
+                    <div class="contactadd">
+                        <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                        <p>S-80, Second Floor, Vardhman Central Mall. Nehru Vihar, Delhi-110054</p>
+                    </div>
+                    <div class="contactadd">
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        <p>example@gmail.com</p>
+                    </div>
+                    <div class="contactadd">
+                        <a href="#"><i class="fa-solid fa-phone"></i></a>
+                        <p>+91 1234567890</p>
+                    </div>
+                </div>
+                <p class="contactpara">Connect with us :</p>
+                <div class="contacticon">
+                    <div class="contacticonwrap">
+                        <img src="assets/images/facebook.png" alt="img">
+                    </div>
+                    <div class="contacticonwrap">
+                        <img src="assets/images/instagram.png" alt="img">
+                    </div>
+                    <div class="contacticonwrap">
+                        <img src="assets/images/twitter.png" alt="img">
+                    </div>
+                    <div class="contacticonwrap">
+                        <img src="assets/images/linkedin.png" alt="img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactright">
+                <h3 class="contacthead">Enquiry or Feedback</h3>
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name*">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email*">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Phone Number*">
+                    </div>
+                    <div class="form-group contactformFlex">
+                        <select name="" id="">
+                            <option value="Select">--Select Speciality--</option>
+                            <option value="Orthopaedic">Orthopaedic</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="General Surgeon">General Surgeon</option>
+                            <option value="Dermatologist">Dermatologist</option>
+                            <option value="Dentist">Dentist</option>
+                        </select>
+
+                        <select name="" id="">
+                            <option value="Select">--Select Doctor--</option>
+                            <option value="Dr Lorem Ipsum">Dr Lorem Ipsum</option>
+                            <option value="Dr Lorem Ipsum">Dr Lorem Ipsum</option>
+                            <option value="Dr Lorem Ipsum">Dr Lorem Ipsum</option>
+                            <option value="Dr Lorem Ipsum">Dr Lorem Ipsum</option>
+                            <option value="Dr Lorem Ipsum">Dr Lorem Ipsum</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="contactmsg" cols="30" rows="5" placeholder="Message*"></textarea>
+                    </div>
+                    <div class="submitbtndiv">
+                        <button class="submitbtn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <!-- contact box part -->
 
-<section class="ContactTopSec">
+<!-- <section class="ContactTopSec">
     <div class="custContainer">
         <div class="contactTopInn">
             <div class="contactTopDiv">
@@ -34,54 +134,13 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<!-- contact us form -->
+<!-- map -->
 
-<section class="contactForm">
-    <div class="custContainer">
-        <div class="contactformTop">
-            <h5 class="contactHead">Contact Us</h5>
-            <p class="contactPara">Lifeline Hospital is always looking to make things easier for you. Our aim is to provide our customers with the best medical facilities, constant care, and reliable support. If you would like to get in touch with a doctor from a specific department, would like some specific information about the services we provide, or just have a question for us, please fill up the Form given below and we will get back to you.</p>
-        </div>
-        <div class="contactformBtm">
-            <form action="">
-                <div class="form-group">
-                    <input type="text" placeholder="Full Name*">
-                </div>
+<section class="contactMap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.21689754169!2d88.26495106347204!3d22.535564936291014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1705561815413!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="Map"></iframe>
 
-                <div class="form-group contactformflex">
-                    <input type="text" placeholder="Mobile Number*">
-                    <input type="email" placeholder="Email Id*">
-                </div>
-
-                <div class="form-group contactformflex">
-                    <select name="" id="">
-                        <option value="Select">--Select Speciality--</option>
-                        <option value="Allergic medicine">Allergic medicine</option>
-                        <option value="Dermatologist">Dermatologist</option>
-                        <option value="General Surgery">General Surgery</option>
-                        <option value="Orthopedician">Orthopedician</option>
-                        <option value="Cardiologist">Cardiologist</option>
-                    </select>
-
-                    <select name="" id="">
-                        <option value="select">--Select Doctor--</option>
-                        <option value="lorem ipsum">lorem ipsum</option>
-                        <option value="lorem ipsum">lorem ipsum</option>
-                        <option value="lorem ipsum">lorem ipsum</option>
-                        <option value="lorem ipsum">lorem ipsum</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message*"></textarea>
-                </div>
-
-                <button class="contactSubmitBtn">Submit</button>
-            </form>
-        </div>
-    </div>
 </section>
 
 

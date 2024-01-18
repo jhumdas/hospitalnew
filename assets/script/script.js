@@ -1,23 +1,23 @@
 // header active
 
 window.addEventListener('load', function () {
-  let ch=window.location.href;
-  let chStr=String(ch);
-  if(chStr.indexOf('.php')===-1){
-      document.querySelector('.headNavLink').classList.add('activeHeadLink');
+  let ch = window.location.href;
+  let chStr = String(ch);
+  if (chStr.indexOf('.php') === -1) {
+    document.querySelector('.headNavLink').classList.add('activeHeadLink');
   }
-  let chLen=chStr.lastIndexOf('/');
-  let chStrSlice=chStr.slice(chLen+1);
-  const savLink2=document.querySelectorAll('.headNavLink');
-  for(let link of savLink2){
-      if(link.getAttribute('href')===chStrSlice){
-          link.classList.add('activeHeadLink');
-      }
+  let chLen = chStr.lastIndexOf('/');
+  let chStrSlice = chStr.slice(chLen + 1);
+  const savLink2 = document.querySelectorAll('.headNavLink');
+  for (let link of savLink2) {
+    if (link.getAttribute('href') === chStrSlice) {
+      link.classList.add('activeHeadLink');
+    }
   }
-  if(chStrSlice==="HVAC.php"){
-      document.querySelector('.induClrBtn').style.cssText+="color: #000;";
-  }else{
-      document.querySelector('.induClrBtn').style.cssText+="color: #486284;";
+  if (chStrSlice === "HVAC.php") {
+    document.querySelector('.induClrBtn').style.cssText += "color: #000;";
+  } else {
+    document.querySelector('.induClrBtn').style.cssText += "color: #486284;";
   }
 })
 
@@ -185,4 +185,12 @@ var swiper = new Swiper(".clientSwiper", {
   },
 });
 
+// department modal
+
+function openModal() {
+  document.getElementById('deptModal').classList.add('openmodal')
+}
+function closeModal() {
+  document.getElementById('deptModal').classList.remove('openmodal')
+}
 
