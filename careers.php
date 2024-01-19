@@ -4,7 +4,7 @@
 
 <section class="aboutbanner">
     <figure class="aboutbannerdiv">
-        <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/top-7-steps-to-decide-the-right-career-path-ccr9-article.jpg" alt="img">
+        <img src="./assets/images/Career-banner.jpg" alt="img">
         <div class="abouthypertxt">
             <a href="index.php" class="">HOME / </a>
             <p>Careers</p>
@@ -94,7 +94,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="facility-card">
                     <div class="card-img">
-                        <img src="assets/images/whyjoin2.png" alt="img" class="card-imgDiv">
+                        <img src="assets/images/whyjoin2.jpg" alt="img" class="card-imgDiv">
                     </div>
                     <div class="facility-dtl">
                         <h4>Flexible Timing</h4>
@@ -142,18 +142,18 @@
                     <h3 class="career-frm-heading">Drop Your CV</h3>
                     <div class="career-image-group">
                         <div class="career-frm-image">
-                            <img src="assets/images/enrollform1.jpg" alt="img">
+                            <img src="assets/images/dropcv1.jpg" alt="img">
                         </div>
                         <div class="career-frm-image">
-                            <img src="assets/images/enrollform2.jpg" alt="img">
+                            <img src="assets/images/dropcv2.jpg" alt="img">
                         </div>
                     </div>
                     <div class="career-image-group">
                         <div class="career-frm-image">
-                            <img src="assets/images/enrollform3.jpg" alt="img">
+                            <img src="assets/images/dropcv3.jpg" alt="img">
                         </div>
                         <div class="career-frm-image">
-                            <img src="assets/images/enrollform4.jpg" alt="img">
+                            <img src="assets/images/dropcv4.jpg" alt="img">
                         </div>
                     </div>
                 </div>
