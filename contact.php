@@ -6,7 +6,8 @@
     <figure class="aboutbannerdiv">
         <img class="" src="./assets/images/contactbanner.jpg">
         <div class="abouthypertxt">
-            <a href="index.php" class="">HOME / </a>
+            <a href="index.php" class="">HOME</a>
+            <i class="fa-solid fa-angles-right"></i>
             <p>Contact us</p>
         </div>
     </figure>
@@ -28,7 +29,7 @@
                 <div class="contact_address">
                     <div class="contactadd">
                         <a href="#"><i class="fa-solid fa-location-dot"></i></a>
-                        <p>S-80, Second Floor, Vardhman Central Mall. Nehru Vihar, Delhi-110054</p>
+                        <p>NH-2, Asansol (East), Paschim Bardhaman, Pin- 713339</p>
                     </div>
                     <div class="contactadd">
                         <a href="#"><i class="fa-solid fa-envelope"></i></a>
@@ -36,7 +37,7 @@
                     </div>
                     <div class="contactadd">
                         <a href="#"><i class="fa-solid fa-phone"></i></a>
-                        <p>+91 1234567890</p>
+                        <p>+91 9564090990</p>
                     </div>
                 </div>
                 <p class="contactpara">Connect with us :</p>
@@ -139,7 +140,7 @@
 <!-- map -->
 
 <section class="contactMap">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.21689754169!2d88.26495106347204!3d22.535564936291014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1705561815413!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="Map"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116966.48724483211!2d86.86620379676081!3d23.632909851821697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f71977d38f9a83%3A0xdbdb3d6ad6896af3!2sDamra%2C%20West%20Bengal%20713339!5e0!3m2!1sen!2sin!4v1706793106464!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="Map"></iframe>
 
 </section>
 

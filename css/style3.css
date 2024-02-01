@@ -1,7 +1,8 @@
 .aboutbannerdiv {
     width: 100%;
-    height: 390px;
+    height: 450px;
     position: relative;
+    overflow: hidden;
 }
 
 figure {
@@ -38,26 +39,30 @@ figure {
     width: 100%;
 }
 
+.abouthypertxt i{
+    color: #fff;
+    margin: 0px 5px;
+}
+
 .abouthypertxt p {
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 25px;
-    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
     text-transform: uppercase;
 }
 
 .abouthypertxt a {
     color: #ffffff;
-    font-size: 15px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 700;
     line-height: 22px;
 }
 
 .abouttextdiv {
     width: 100%;
     height: auto;
-    padding: 0px 0px 180px 0px;
+    padding: 0px 0px 220px 0px;
     position: relative;
 
 }
@@ -67,10 +72,10 @@ figure {
     width: 100%;
     position: absolute;
     width: 100%;
-    max-width: 65%;
+    max-width: 70%;
     border-radius: 10px;
     z-index: 2;
-    top: 0%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
@@ -323,6 +328,27 @@ figure {
 
 /* chairman msg end */
 
+/* Responsive */
+
+@media (max-width: 1399px){
+    .divabout{
+        top: 15%;
+    }
+
+    .abouttextdiv {
+        padding: 0px 0px 250px 0px;
+    }
+
+    .abtspcltxt {
+        line-height: 24px;
+        padding: 15px 30px;
+    }
+
+    .aboutbgtxt{
+        padding: 13px 0px;
+    }
+}
+
 @media(max-width:1199px) {
     .abtspcltxt {
         color: #ffffff;
@@ -352,6 +378,10 @@ figure {
 
     .chairmanTopText::before{
         font-size: 30px;
+    }
+
+    .divabout{
+        top: 0;
     }
 }
 
@@ -524,7 +554,7 @@ figure {
 
     .abouthypertxt p {
         color: #ffffff;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 800;
         line-height: 20px;
         margin-left: 4px;
@@ -533,7 +563,7 @@ figure {
 
     .abouthypertxt a {
         color: #ffffff;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 800;
         line-height: 20px;
     }

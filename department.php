@@ -6,7 +6,8 @@
     <figure class="aboutbannerdiv">
         <img src="./assets/images/department img.jpg" alt="img">
         <div class="abouthypertxt">
-            <a href="index.php" class="">HOME / </a>
+            <a href="index.php" class="">HOME</a>
+            <i class="fa-solid fa-angles-right"></i>
             <p>Departments</p>
         </div>
     </figure>
@@ -22,19 +23,19 @@
         <ul class="alldeptInn">
             <li class="deptLi" onclick="openModal()">
                 <img src="./assets/images/Point.png" alt="img">
+                Cardiology & CTVS
+            </li>
+            <li class="deptLi" onclick="openModal()">
+                <img src="./assets/images/Point.png" alt="img">
                 Emergency & Trauma
             </li>
             <li class="deptLi" onclick="openModal()">
                 <img src="./assets/images/Point.png" alt="img">
-                Critical Care
+                Orthopedics
             </li>
             <li class="deptLi" onclick="openModal()">
                 <img src="./assets/images/Point.png" alt="img">
-                Anesthesia & Pain Management
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Internal Medicine
+                Neuroscience
             </li>
             <li class="deptLi" onclick="openModal()">
                 <img src="./assets/images/Point.png" alt="img">
@@ -42,51 +43,7 @@
             </li>
             <li class="deptLi" onclick="openModal()">
                 <img src="./assets/images/Point.png" alt="img">
-                Cardiology
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Neuro Medicine
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Neuro Surgery
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
                 Nephrology
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Rheumatology
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Diabetology & Endocrinology
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Pulmonology & Sleep Management
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Transfusion Medicine (Blood Bank)
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                General , Gastro Intestinal & Laparoscopic Surgery
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Urology
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Plastic & Reconstructive Surgery
-            </li>
-            <li class="deptLi" onclick="openModal()">
-                <img src="./assets/images/Point.png" alt="img">
-                Cardiothoracic and Vascular Surgery
             </li>
             <li class="deptLi" onclick="openModal()">
                 <img src="./assets/images/Point.png" alt="img">
@@ -94,11 +51,39 @@
             </li>
             <li class="deptLi" onclick="openModal()">
                 <img src="./assets/images/Point.png" alt="img">
-                Laboratory Medicine
+                ENT
             </li>
             <li class="deptLi" onclick="openModal()">
                 <img src="./assets/images/Point.png" alt="img">
-                Clinical Microbiology & Infectious Diseases
+                Gynaecology & Obstetrics 
+            </li>
+            <li class="deptLi" onclick="openModal()">
+                <img src="./assets/images/Point.png" alt="img">
+                General Surgery
+            </li>
+            <li class="deptLi" onclick="openModal()">
+                <img src="./assets/images/Point.png" alt="img">
+                General Medicine
+            </li>
+            <li class="deptLi" onclick="openModal()">
+                <img src="./assets/images/Point.png" alt="img">
+                Pulmonology
+            </li>
+            <li class="deptLi" onclick="openModal()">
+                <img src="./assets/images/Point.png" alt="img">
+                Urology
+            </li>
+            <li class="deptLi" onclick="openModal()">
+                <img src="./assets/images/Point.png" alt="img">
+                Ophthalmology
+            </li>
+            <li class="deptLi" onclick="openModal()">
+                <img src="./assets/images/Point.png" alt="img">
+                Dental
+            </li>
+            <li class="deptLi" onclick="openModal()">
+                <img src="./assets/images/Point.png" alt="img">
+                Sports Medicine
             </li>
         </ul>
     </div>

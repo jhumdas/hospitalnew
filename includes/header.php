@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
 
+
     <!-- Swiper Css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -120,7 +121,7 @@
                         <ul class="btmHeaderUl">
                             <li><a href="index.php" class="headNavLink">Home</a></li>
                             <li><a href="about.php" class="headNavLink">About Us</a></li>
-                            <li><a href="#" class="headNavLink">Facilities & Services</a></li>
+                            <li><a href="services.php" class="headNavLink">Facilities & Services</a></li>
                             <li><a href="department.php" class="headNavLink">Departments</a></li>
                             <li><a href="doctors.php" class="headNavLink">Doctors</a></li>
                             <li><a href="careers.php" class="headNavLink">Careers</a></li>
@@ -153,7 +154,7 @@
                 <ul class="sidebarUl">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
-                    <li><a href="#">Facilities & Services</a></li>
+                    <li><a href="services.php">Facilities & Services</a></li>
                     <li><a href="department.php">Departments</a></li>
                     <li><a href="doctors.php">Doctors</a></li>
                     <li><a href="careers.php">Careers</a></li>

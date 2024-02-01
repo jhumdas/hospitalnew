@@ -6,7 +6,8 @@
     <figure class="aboutbannerdiv">
         <img src="./assets/images/Career-banner.jpg" alt="img">
         <div class="abouthypertxt">
-            <a href="index.php" class="">HOME / </a>
+            <a href="index.php" class="">HOME</a>
+            <i class="fa-solid fa-angles-right"></i>
             <p>Careers</p>
         </div>
     </figure>
@@ -28,7 +29,7 @@
                     <p class="jobDet">Office Timing: <span>Flexible</span></p>
                 </div>
                 <div class="careerCardBtm">
-                    <a href="#" class="careerCardBtn">Apply Now</a>
+                    <a href="#career-form-id" class="careerCardBtn">Apply Now</a>
                 </div>
             </div>
 
@@ -40,7 +41,7 @@
                     <p class="jobDet">Office Timing: <span>Flexible</span></p>
                 </div>
                 <div class="careerCardBtm">
-                    <a href="#" class="careerCardBtn">Apply Now</a>
+                    <a href="#career-form-id" class="careerCardBtn">Apply Now</a>
                 </div>
             </div>
 
@@ -52,7 +53,7 @@
                     <p class="jobDet">Office Timing: <span>Flexible</span></p>
                 </div>
                 <div class="careerCardBtm">
-                    <a href="#" class="careerCardBtn">Apply Now</a>
+                    <a href="#career-form-id" class="careerCardBtn">Apply Now</a>
                 </div>
             </div>
 
@@ -64,7 +65,7 @@
                     <p class="jobDet">Office Timing: <span>Flexible</span></p>
                 </div>
                 <div class="careerCardBtm">
-                    <a href="#" class="careerCardBtn">Apply Now</a>
+                    <a href="#career-form-id" class="careerCardBtn">Apply Now</a>
                 </div>
             </div>
         </div>
@@ -137,9 +138,9 @@
 <section class="career-frm" id="career-form-id">
     <div class="custContainer">
         <div class="career-frm-content">
+            <h3 class="career-frm-heading">Drop Your CV</h3>
             <div class="row">
                 <div class="col-12 col-md-6 careerformimgdiv">
-                    <h3 class="career-frm-heading">Drop Your CV</h3>
                     <div class="career-image-group">
                         <div class="career-frm-image">
                             <img src="assets/images/dropcv1.jpg" alt="img">
@@ -147,8 +148,6 @@
                         <div class="career-frm-image">
                             <img src="assets/images/dropcv2.jpg" alt="img">
                         </div>
-                    </div>
-                    <div class="career-image-group">
                         <div class="career-frm-image">
                             <img src="assets/images/dropcv3.jpg" alt="img">
                         </div>
@@ -176,10 +175,8 @@
                                 <label for="">Upload CV </label>
                                 <input type="file" class="form-control-file" id="">
                             </div>
-                            <div class="text-center subCarDiv">
-                                <button type="Submit" class="btns text-center">
-                                    <a href="#" class="form-send"> Send Application </a>
-                                </button>
+                            <div class="subCarDiv">
+                                <a href="#" class="CareerSubmitBtn">Send Application </a>
                             </div>
                         </form>
                     </div>

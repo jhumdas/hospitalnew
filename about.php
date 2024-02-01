@@ -5,7 +5,8 @@
     <figure class="aboutbannerdiv">
         <img class="" src="./assets/images/demoimg1.jpeg">
         <div class="abouthypertxt">
-            <a href="index.php" class="">HOME / </a>
+            <a href="index.php" class="">HOME</a>
+            <i class="fa-solid fa-angles-right"></i>
             <p>About us</p>
         </div>
     </figure>
@@ -20,7 +21,28 @@
                 <h2 class="aboutbgtxt">ABOUT LIFELINE MULTISPECIALITY HOSPITAL</h2>
             </div>
             <div class="abtspcldiv">
-                <p class="abtspcltxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in delectus, doloribus nihil illum dolore id illo ab veniam. Ratione velit earum eius, ipsa ducimus hic nihil. Fugiat a et sint. Assumenda iusto dolorum in unde magni voluptas nam soluta, consectetur nihil rem vel necessitatibus, quos dolore a eius? Quo vitae eveniet fugiat, iste unde hic, eum esse ad tempora sequi quasi possimus exercitationem non fuga optio quisquam ratione nostrum praesentium. Omnis, velit eveniet sint rem error sequi esse quidem magni sunt dolore voluptates blanditiis neque soluta necessitatibus ex veritatis, quisquam nulla architecto voluptatem doloremque. Necessitatibus dolorum fuga repellat accusantium est suscipit iusto asperiores deserunt quidem. Non vero nisi quam rerum velit est fugiat blanditiis in ipsum sit. Necessitatibus, asperiores?</p>
+                <p class="abtspcltxt">Lifeline Hospital and paramedical institute is an upcoming project in Asansol City (City
+                    of Brotherhood) in western Burdwan district of West Bengal.
+                    Lifeline hospital is a 500 bedded multispecialty unit being built in an area spanning
+                    seven acres. It offers a complete spectrum of high-end diagnostics and therapeutic
+                    technology including 3 Tesla MRI (First time in this part), GE Cath lab, Capsule
+                    Endoscopy, Five modular Operation theatres with HEPA Filter and Laminar airflow with
+                    dedicated theatres to CTVS, Neurosciences and Orthopedics, 70 bedded critical care
+                    unit, Dedicated Mother and Child care unit, 24-hour accident and Emergency 6 bedded
+                    burn unit and a 25 bedded Dialysis unit, amongst others.
+                    The Hospital also offers premium ICU cabin with dedicated resources, for the first time
+                    in Eastern India. Keeping in mind the increasing geriatric population we will be starting
+                    Lifeline Home care services to provide medical care to the senior citizens in the comfort
+                    of their home.
+                    <br>
+                    Future Projects:
+                    Lifeline Hospital is the first hospital of the company's multiple projects. In compliance
+                    with the ever increasing demand for quality medical care for super specialties and lack
+                    of care in this part, we also plan to come up with dedicated Neurosciences, Gastro
+                    sciences, Oncology, Mother and Child and Eyecare units in the near future and convert
+                    this campus into a medical hub. This in alignment with our company's value system to
+                    provide easily accessible, affordable and quality healthcare to the community of this
+                    geographical area.</p>
             </div>
         </div>
     </div>

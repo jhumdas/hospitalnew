@@ -6,7 +6,8 @@
     <figure class="aboutbannerdiv">
         <img src="./assets/images/Doctor banner.png" alt="img">
         <div class="abouthypertxt">
-            <a href="index.php" class="">HOME / </a>
+            <a href="index.php" class="">HOME</a>
+            <i class="fa-solid fa-angles-right"></i>
             <p>Doctors</p>
         </div>
     </figure>

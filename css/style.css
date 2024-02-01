@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
@@ -2307,38 +2308,47 @@ a:hover {
 }
 
 .career-frm-heading {
-    color: #005368;
+    color: #224855;
     font-size: 30px;
     font-weight: 600;
+    font-family: Times New Roman, serif;
 }
 
 .career-image-group {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 15px;
     margin-top: 20px;
 }
 
 .career-frm-image {
-    width: 100%;
-    height: 100%;
+    width: 49%;
+    height: 200px;
+    overflow: hidden;
 }
 
 .career-frm-image img {
-    width: 85%;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.career-frm-image:hover img {
+    transform: scale(1.15);
 }
 
 .career-form label {
     color: #005368;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
-    font-style: italic;
+    margin-bottom: 10px;
+    font-family: Times New Roman, serif;
 }
 
 .career-form input::placeholder {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
-    font-style: italic;
 }
 
 .career-form textarea {
@@ -2346,42 +2356,50 @@ a:hover {
 }
 
 .career-form textarea::placeholder {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
-    font-style: italic;
 }
 
 .career-form .form-control-file {
     color: #000;
-    font-size: 15px;
+    font-size: 13px;
     border: none;
-    font-style: italic;
 }
 
-.career-form .form-control {
-    color: #000000;
-    font-size: 18px;
+.career-form .form-control:focus {
+    border: 1px solid #ced4da;
+    box-shadow: none;
 }
 
-.career-form .btns {
-    padding: 8px 25px;
+.subCarDiv {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CareerSubmitBtn {
+    width: 160px;
+    padding: 5px;
     background-color: rgb(58, 155, 58);
     border-radius: 5px;
     border: none;
     box-shadow: none;
     outline: 0;
-    height: 45px;
-}
-
-.career-form a.form-send {
-    color: #ffffff;
-    font-size: 17px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
     font-weight: 500;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
-.career-form .btns:hover {
+.CareerSubmitBtn:hover {
     background-color: #fc4c23;
+    color: #fff;
     transform: translate(0px, -5px);
 }
 
@@ -2456,8 +2474,181 @@ a:hover {
     font-weight: 400;
 }
 
-
 /* career page end */
+
+/* Service page start */
+
+/* service excellence */
+
+.SerExclnc{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.SerExclncbtm{
+    padding-top: 25px;
+}
+
+.SerExclncbtm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.SerExclncDiv{
+    width: 48%;
+}
+
+.SerExclncFig{
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.SerExclncFig img{
+    width: 100%;
+    height: 100%;
+}
+
+/* top part */
+
+.ServicePage {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.SerBtm {
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.SerDivBox {
+    width: 24%;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.SerFigIcon {
+    width: 80px;
+    height: 80px;
+    margin: 0px auto;
+}
+
+.SerFigIcon img {
+    width: 100%;
+    height: 100%;
+}
+
+.SerDivTxt {
+    font-size: 16px;
+    color: #005368;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* bottom part */
+
+.ServicePgDet {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.ServicePgDetInn{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.ServicePgDetInn::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: #d9d9d9;
+    bottom: 0;
+    right: 0;
+}
+
+.SrvcIndiDiv {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ServicePgDetInn:nth-child(even) .SrvcIndiDiv{
+    flex-direction: row-reverse;
+}
+
+.SerDetDiv{
+    width: 68%;
+}
+
+.srvcdetTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.SerDetHead {
+    font-size: 22px;
+    font-weight: 600;
+    color: #224855;
+    font-family: Times New Roman, serif;
+    white-space: nowrap;
+}
+
+.srvcLine{
+    background-color: #d9d9d9;
+    height: 1px;
+    width: 100%;
+}
+
+.SerDetPara {
+    color: #000;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.amblnctxt{
+    font-weight: bold;
+}
+
+.serFig {
+    width: 30%;
+    height: 270px;
+}
+
+.serFig img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.SerDetUl li{
+    color: #000;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 6px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.SerDetUl li::before{
+    content: '\f058';
+    font-family: fontawesome;
+    position: absolute;
+    left: 0;
+    color: #224855;
+    font-size: 15px;
+}
+
+/* Service page end */
 
 /* Responsive */
 
@@ -2621,6 +2812,36 @@ a:hover {
     }
 
     /* doctor page end */
+
+    /* career page start */
+
+    .career-frm-heading {
+        font-size: 25px;
+    }
+
+    .career-frm-image {
+        height: 175px;
+    }
+
+    /* career page end */
+
+    /* service page start */
+
+    .SerFigIcon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .serFig {
+        width: 35%;
+        height: 220px;
+    }
+
+    .SerDetDiv {
+        width: 63%;
+    }
+
+    /* service page end */
 }
 
 @media (max-width: 991px) {
@@ -2726,6 +2947,10 @@ a:hover {
 
     .CareerCard {
         width: 48%;
+    }
+
+    .career-frm-image {
+        height: 150px;
     }
 
     /* career page end */
@@ -2860,7 +3085,6 @@ a:hover {
     .HeartList ul li a {
         font-size: 12px;
     }
-
 
     /* excellence section end */
 
@@ -3000,7 +3224,70 @@ a:hover {
         font-size: 13px;
     }
 
+    .career-frm-image {
+        height: 180px;
+    }
+
+    .career-form {
+        padding-top: 30px;
+    }
+
+    .career-frm-heading {
+        text-align: center;
+    }
+
     /* career page end */
+
+    /* service page start */
+
+    .SrvcIndiDiv{
+        flex-direction: column !important;
+    }
+
+    .SerDetDiv{
+        width: 100%;
+    }
+
+    .serFig {
+        width: 50%;
+        margin: 0px auto;
+        margin-bottom: 15px;
+    }
+
+    .SerDivBox {
+        width: 32%;
+    }
+
+    .SerFigIcon {
+        width: 42px;
+        height: 42px;
+    }
+
+    .SerDivTxt {
+        font-size: 14px;
+    }
+
+    .SerBtm{
+        row-gap: 10px;
+    }
+
+    .ServicePgDetInn::after{
+        width: 100%;
+    }
+
+    .SerDetPara, .SerDetUl li{
+        font-size: 14px;
+    }
+
+    .SerDetHead {
+        font-size: 20px;
+    }
+
+    .ServicePgDetInn {
+        margin-bottom: 30px;
+    }
+
+    /* service page end */
 }
 
 @media (max-width: 575px) {
@@ -3246,6 +3533,34 @@ a:hover {
     }
 
     /* career page end */
+
+    /* service page start */
+
+    .serFig {
+        width: 100%;
+        margin-bottom: 15px;
+        height: auto;
+    }
+
+    .ServicePage {
+        padding: 20px 0px;
+    }
+
+    .SerFigIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .SerDivTxt {
+        font-size: 13px;
+    }
+
+    .SerDetPara, .SerDetUl li {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    /* service page end */
 }
 
 @media (max-width: 480px) {
@@ -3337,6 +3652,22 @@ a:hover {
         height: 125px;
     }
 
+    .career-frm {
+        padding: 25px 0px;
+    }
+
+    .career-frm-heading {
+        font-size: 22px;
+    }
+
+    .career-frm-image {
+        height: 150px;
+    }
+
+    .CareerSubmitBtn {
+        width: 140px;
+        height: 35px;
+    }
 
     /* career page end */
 }
