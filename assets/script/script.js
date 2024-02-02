@@ -194,3 +194,32 @@ function closeModal() {
   document.getElementById('deptModal').classList.remove('openmodal')
 }
 
+// doctor swiper
+
+// var swiper = new Swiper(".docSwiper", {
+//   direction: "vertical",
+//   slidesPerView: 2,
+//   spaceBetween: 10,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });
+
+var swiper = new Swiper('.docSwiper', {
+  direction: 'vertical',
+  slidesPerView: 2,
+  spaceBetween: 10,
+  // mousewheel: true,
+  // grabCursor: true,
+  // loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+

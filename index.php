@@ -13,7 +13,7 @@
 
             <div class="swiper-slide">
                 <div class="banner-slide">
-                    <img src="./assets/images/banner2.jpg" alt="img">
+                    <img src="./assets/images/Banner4.jpg" alt="img">
                 </div>
             </div>
 
@@ -22,6 +22,7 @@
                     <img src="./assets/images/banner3.jpg" alt="img">
                 </div>
             </div>
+
         </div>
         <!-- <div class="swiper-pagination"></div> -->
     </div>

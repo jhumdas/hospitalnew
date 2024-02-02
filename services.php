@@ -69,7 +69,7 @@
 
             <div class="SerExclncDiv">
                 <figure class="SerExclncFig">
-                    <img src="./assets/images/MRI.jpg" alt="img">
+                    <img src="./assets/images/Endoscopy.jpg" alt="img">
                 </figure>
                 <div class="SerExclncTxt">
                     <h5 class="SerExclHead">Capsule endoscopy</h5>

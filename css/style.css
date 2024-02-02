@@ -1838,7 +1838,7 @@ a:hover {
 }
 
 .docDetCard {
-    width: 49%;
+    width: 100%;
     border-radius: 10px;
     padding: 15px;
     display: flex;
@@ -1955,6 +1955,174 @@ a:hover {
     background-color: #237d9e;
     color: #fff;
 }
+
+/* doctor page new part */
+
+.deptDocTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.deptDocBtm {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.deptDocHead {
+    font-size: 22px;
+    font-weight: 600;
+    color: #224855;
+    font-family: Times New Roman, serif;
+    white-space: nowrap;
+}
+
+.docLine {
+    background-color: #d9d9d9;
+    height: 1px;
+    width: 100%;
+}
+
+.deptHeadDocMain {
+    width: 60%;
+}
+
+.deptHeadDoc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 30px 0px rgb(0 0 0 / 30%);
+    border-radius: 15px;
+}
+
+.deptdocLeft {
+    width: 40%;
+    background-color: #aab8c5;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.bigdocFig {
+    width: 150px;
+    height: 150px;
+    margin: 15px auto;
+}
+
+.bigdocFig img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.bigdocName p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bigdocDet {
+    background-color: #005368;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bigdocDet h6 {
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+}
+
+.bigdocDet p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.DocBigName {
+    font-size: 20px;
+    font-weight: 700;
+    color: #575757;
+    margin-bottom: 15px;
+    font-family: Times New Roman, serif;
+}
+
+.DocbigDesig {
+    color: #005368;
+    font-size: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #005368;
+    font-weight: 600;
+    font-family: Times New Roman, serif;
+    margin-bottom: 8px;
+}
+
+.DocbigDescrp {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.deptHeadExp {
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 30px 0px rgb(0 0 0 / 30%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.deptHeadExp h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    font-family: Times New Roman, serif;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #224855;
+    margin-bottom: 8px;
+}
+
+.deptHeadExp ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    padding-left: 15px;
+    position: relative;
+}
+
+.deptHeadExp ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #224855;
+}
+
+.detdocRight {
+    width: 58%;
+    padding: 15px;
+}
+
+.deptOthrDoc {
+    width: 38%;
+    height: 540px;
+    /* padding: 20px 15px; */
+    background: #fff;
+    box-shadow: 0 0 30px 0px rgb(0 0 0 / 30%);
+    border-radius: 15px;
+}
+
+.docSwiper {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
 
 /* doctor page end */
 
@@ -2480,35 +2648,76 @@ a:hover {
 
 /* service excellence */
 
-.SerExclnc{
+.SerExclnc {
     width: 100%;
     height: auto;
     padding: 30px 0px;
 }
 
-.SerExclncbtm{
+.SerExclncbtm {
     padding-top: 25px;
 }
 
-.SerExclncbtm{
+.SerExclncbtm {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.SerExclncDiv{
-    width: 48%;
+.SerExclncDiv {
+    width: 23%;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 450px;
+    overflow: hidden;
 }
 
-.SerExclncFig{
-    width: 300px;
-    height: 300px;
+.SerExclncDiv:hover .SerExclncFig img {
+    transform: scale(1.15);
+}
+
+.SerExclncFig {
+    width: 100%;
+    height: 200px;
     margin: 0px auto;
+    overflow: hidden;
 }
 
-.SerExclncFig img{
+.SerExclncFig img {
     width: 100%;
     height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.SerExclncTxt {
+    padding: 20px 10px;
+}
+
+.SerExclHead {
+    font-weight: 600;
+    font-size: 17px;
+    white-space: wrap;
+    overflow: hidden;
+    margin-bottom: 10px;
+    color: #224855;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.SerExclPara {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
 }
 
 /* top part */
@@ -2558,12 +2767,12 @@ a:hover {
     padding: 30px 0px;
 }
 
-.ServicePgDetInn{
+.ServicePgDetInn {
     position: relative;
     margin-bottom: 50px;
 }
 
-.ServicePgDetInn::after{
+.ServicePgDetInn::after {
     content: '';
     position: absolute;
     width: 90%;
@@ -2579,15 +2788,15 @@ a:hover {
     justify-content: space-between;
 }
 
-.ServicePgDetInn:nth-child(even) .SrvcIndiDiv{
+.ServicePgDetInn:nth-child(even) .SrvcIndiDiv {
     flex-direction: row-reverse;
 }
 
-.SerDetDiv{
+.SerDetDiv {
     width: 68%;
 }
 
-.srvcdetTop{
+.srvcdetTop {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2602,7 +2811,7 @@ a:hover {
     white-space: nowrap;
 }
 
-.srvcLine{
+.srvcLine {
     background-color: #d9d9d9;
     height: 1px;
     width: 100%;
@@ -2615,7 +2824,7 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.amblnctxt{
+.amblnctxt {
     font-weight: bold;
 }
 
@@ -2630,7 +2839,7 @@ a:hover {
     border-radius: 0px 20px 0px 20px;
 }
 
-.SerDetUl li{
+.SerDetUl li {
     color: #000;
     font-size: 15px;
     line-height: 23px;
@@ -2639,7 +2848,7 @@ a:hover {
     position: relative;
 }
 
-.SerDetUl li::before{
+.SerDetUl li::before {
     content: '\f058';
     font-family: fontawesome;
     position: absolute;
@@ -2827,6 +3036,27 @@ a:hover {
 
     /* service page start */
 
+    .SerExclncDiv {
+        height: 400px;
+    }
+
+    .SerExclPara {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .SerExclHead {
+        font-size: 15px;
+    }
+
+    .SerExclncFig {
+        height: 155px;
+    }
+
+    .SerExclncTxt {
+        padding: 10px;
+    }
+
     .SerFigIcon {
         width: 55px;
         height: 55px;
@@ -2954,6 +3184,23 @@ a:hover {
     }
 
     /* career page end */
+
+    /* service page start */
+
+    .SerExclncbtm {
+        row-gap: 25px;
+    }
+
+    .SerExclncDiv {
+        width: 48%;
+        height: 440px;
+    }
+
+    .SerExclncFig {
+        height: 230px;
+    }
+
+    /* service page end */
 
 }
 
@@ -3240,11 +3487,11 @@ a:hover {
 
     /* service page start */
 
-    .SrvcIndiDiv{
+    .SrvcIndiDiv {
         flex-direction: column !important;
     }
 
-    .SerDetDiv{
+    .SerDetDiv {
         width: 100%;
     }
 
@@ -3267,15 +3514,16 @@ a:hover {
         font-size: 14px;
     }
 
-    .SerBtm{
+    .SerBtm {
         row-gap: 10px;
     }
 
-    .ServicePgDetInn::after{
+    .ServicePgDetInn::after {
         width: 100%;
     }
 
-    .SerDetPara, .SerDetUl li{
+    .SerDetPara,
+    .SerDetUl li {
         font-size: 14px;
     }
 
@@ -3536,6 +3784,27 @@ a:hover {
 
     /* service page start */
 
+    .SerExclnc {
+        padding: 20px 0px;
+    }
+
+    .SerExclncbtm {
+        padding-top: 10px;
+    }
+
+    .SerExclncDiv {
+        width: 100%;
+        height: auto;
+    }
+
+    .SerExclncFig {
+        height: auto;
+    }
+
+    .SerExclPara {
+        display: block;
+    }
+
     .serFig {
         width: 100%;
         margin-bottom: 15px;
@@ -3555,12 +3824,14 @@ a:hover {
         font-size: 13px;
     }
 
-    .SerDetPara, .SerDetUl li {
+    .SerDetPara,
+    .SerDetUl li {
         font-size: 13px;
         margin-bottom: 5px;
     }
 
     /* service page end */
+
 }
 
 @media (max-width: 480px) {
