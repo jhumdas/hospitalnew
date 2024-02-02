@@ -55,7 +55,7 @@
                             <div class="lwrRhtIconDiv">
                                 <i class="fa-solid fa-phone"></i>
                             </div>
-                            <p class="lwrInrPara">(033) 6680 0000</p>
+                            <p class="lwrInrPara">+91 9564090990</p>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                                 </div>
                                 <div class="headCard" style="background-color: #224855;">
                                     <h5>LIFELINE</h5>
-                                    <p>033-500-1066</p>
+                                    <p>+91 9564090990</p>
                                 </div>
                                 <div class="avlblimg">
                                     <img src="assets/images/24by7.jpg" alt="img">

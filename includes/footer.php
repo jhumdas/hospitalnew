@@ -285,12 +285,10 @@
     <div class="custContainer">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-12">
-                <div class="footerSocal">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <div class="footaddress">
+                    <p>NH-2, Asansol (East), Paschim Bardhaman, Pin- 713339</p>
+                    <p>example@gmail.com</p>
+                    <p>+91 9564090990</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12">
@@ -302,7 +300,14 @@
             </div>
             <div class="col-lg-4 col-md-4 col-12">
                 <div class="footerReserve">
-                    <a href="#">© 2024 Hospitals Enterprise Ltd. All Rights Reserved.</a>
+                    <a href="#">© 2024 Lifeline Multispeciality Hospital All Rights Reserved.</a>
+                </div>
+                <div class="footerSocal">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
         </div>
