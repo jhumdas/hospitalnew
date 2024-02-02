@@ -260,8 +260,255 @@
                             </div>
 
                         </div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="deptDocDiv">
+            <div class="deptDocTop">
+                <h5 class="deptDocHead">Dermatologist</h5>
+                <div class="docLine"></div>
+            </div>
+            <div class="deptDocBtm">
+
+                <div class="deptHeadDocMain">
+                    <div class="deptHeadDoc">
+                        <div class="deptdocLeft">
+                            <figure class="bigdocFig">
+                                <img src="./assets/images/doctor6.jpg" alt="img">
+                            </figure>
+                            <div class="bigdocName">
+                                <p>Dr Dibyendu Kumar Roy</p>
+                            </div>
+                            <div class="bigdocDet">
+                                <h6>Qualifcation</h6>
+                                <p>HOD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                            </div>
+                        </div>
+
+                        <div class="detdocRight">
+                            <p class="DocBigName">Dr Dibyendu Kumar Roy</p>
+                            <p class="DocbigDesig">Senior Consultant & HOD</p>
+                            <p class="DocbigDescrp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit iste consequatur ut ratione nemo animi, molestias aut voluptatum debitis nesciunt vitae error odio possimus! Itaque inventore natus pariatur sequi, eos incidunt corrupti aliquid exercitationem, excepturi sunt non delectus commodi atque sint saepe adipisci illum at repellendus officiis eum. Ex voluptates sed sint vitae dolor, eveniet molestiae autem officiis debitis fugiat, quia quod corporis voluptate velit explicabo a nesciunt rem cumque harum officia? Ducimus, exercitationem magni. Aspernatur voluptate quos pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="deptHeadExp">
+                        <h5>Research Experience</h5>
+                        <ul>
+                            <li>Member of Indian Academy of Pediatrics Member</li>
+                            <li>of International Society of Pediatric Nephrology</li>
+                            <li>Member of Indian Society of Paediatric Nephrology</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="deptOthrDoc">
+                    <div class="swiper docSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="docDetCard">
+                                    <figure class="docCardfig">
+                                        <img src="./assets/images/doctor2.jpg" alt="img">
+                                    </figure>
+                                    <div class="docCardTxt">
+                                        <div class="docCardTxtTop">
+                                            <p class="docCardName">Dr Prakash Kumar Hazra</p>
+                                            <p class="docCardProf">Consultant</p>
+                                        </div>
+                                        <div class="docCardTxtBtm">
+                                            <p class="docCardQuali">MD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                                        </div>
+                                        <button class="docCardBookbtn">Book Appointment</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="docDetCard">
+                                    <figure class="docCardfig">
+                                        <img src="./assets/images/doctor3.jpg" alt="img">
+                                    </figure>
+                                    <div class="docCardTxt">
+                                        <div class="docCardTxtTop">
+                                            <p class="docCardName">Dr Prakash Kumar Hazra</p>
+                                            <p class="docCardProf">Consultant</p>
+                                        </div>
+                                        <div class="docCardTxtBtm">
+                                            <p class="docCardQuali">MD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                                        </div>
+                                        <button class="docCardBookbtn">Book Appointment</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="docDetCard">
+                                    <figure class="docCardfig">
+                                        <img src="./assets/images/doctor4.jpg" alt="img">
+                                    </figure>
+                                    <div class="docCardTxt">
+                                        <div class="docCardTxtTop">
+                                            <p class="docCardName">Dr Prakash Kumar Hazra</p>
+                                            <p class="docCardProf">Consultant</p>
+                                        </div>
+                                        <div class="docCardTxtBtm">
+                                            <p class="docCardQuali">MD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                                        </div>
+                                        <button class="docCardBookbtn">Book Appointment</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="docDetCard">
+                                    <figure class="docCardfig">
+                                        <img src="./assets/images/doctor5.jpg" alt="img">
+                                    </figure>
+                                    <div class="docCardTxt">
+                                        <div class="docCardTxtTop">
+                                            <p class="docCardName">Dr Prakash Kumar Hazra</p>
+                                            <p class="docCardProf">Consultant</p>
+                                        </div>
+                                        <div class="docCardTxtBtm">
+                                            <p class="docCardQuali">MD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                                        </div>
+                                        <button class="docCardBookbtn">Book Appointment</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="deptDocDiv">
+            <div class="deptDocTop">
+                <h5 class="deptDocHead">General Surgeon</h5>
+                <div class="docLine"></div>
+            </div>
+            <div class="deptDocBtm">
+
+                <div class="deptHeadDocMain">
+                    <div class="deptHeadDoc">
+                        <div class="deptdocLeft">
+                            <figure class="bigdocFig">
+                                <img src="./assets/images/doctor5.jpg" alt="img">
+                            </figure>
+                            <div class="bigdocName">
+                                <p>Dr Dibyendu Kumar Roy</p>
+                            </div>
+                            <div class="bigdocDet">
+                                <h6>Qualifcation</h6>
+                                <p>HOD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                            </div>
+                        </div>
+
+                        <div class="detdocRight">
+                            <p class="DocBigName">Dr Dibyendu Kumar Roy</p>
+                            <p class="DocbigDesig">Senior Consultant & HOD</p>
+                            <p class="DocbigDescrp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit iste consequatur ut ratione nemo animi, molestias aut voluptatum debitis nesciunt vitae error odio possimus! Itaque inventore natus pariatur sequi, eos incidunt corrupti aliquid exercitationem, excepturi sunt non delectus commodi atque sint saepe adipisci illum at repellendus officiis eum. Ex voluptates sed sint vitae dolor, eveniet molestiae autem officiis debitis fugiat, quia quod corporis voluptate velit explicabo a nesciunt rem cumque harum officia? Ducimus, exercitationem magni. Aspernatur voluptate quos pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="deptHeadExp">
+                        <h5>Research Experience</h5>
+                        <ul>
+                            <li>Member of Indian Academy of Pediatrics Member</li>
+                            <li>of International Society of Pediatric Nephrology</li>
+                            <li>Member of Indian Society of Paediatric Nephrology</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="deptOthrDoc">
+                    <div class="swiper docSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="docDetCard">
+                                    <figure class="docCardfig">
+                                        <img src="./assets/images/doctor2.jpg" alt="img">
+                                    </figure>
+                                    <div class="docCardTxt">
+                                        <div class="docCardTxtTop">
+                                            <p class="docCardName">Dr Prakash Kumar Hazra</p>
+                                            <p class="docCardProf">Consultant</p>
+                                        </div>
+                                        <div class="docCardTxtBtm">
+                                            <p class="docCardQuali">MD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                                        </div>
+                                        <button class="docCardBookbtn">Book Appointment</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="docDetCard">
+                                    <figure class="docCardfig">
+                                        <img src="./assets/images/doctor3.jpg" alt="img">
+                                    </figure>
+                                    <div class="docCardTxt">
+                                        <div class="docCardTxtTop">
+                                            <p class="docCardName">Dr Prakash Kumar Hazra</p>
+                                            <p class="docCardProf">Consultant</p>
+                                        </div>
+                                        <div class="docCardTxtBtm">
+                                            <p class="docCardQuali">MD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                                        </div>
+                                        <button class="docCardBookbtn">Book Appointment</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="docDetCard">
+                                    <figure class="docCardfig">
+                                        <img src="./assets/images/doctor4.jpg" alt="img">
+                                    </figure>
+                                    <div class="docCardTxt">
+                                        <div class="docCardTxtTop">
+                                            <p class="docCardName">Dr Prakash Kumar Hazra</p>
+                                            <p class="docCardProf">Consultant</p>
+                                        </div>
+                                        <div class="docCardTxtBtm">
+                                            <p class="docCardQuali">MD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                                        </div>
+                                        <button class="docCardBookbtn">Book Appointment</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="docDetCard">
+                                    <figure class="docCardfig">
+                                        <img src="./assets/images/doctor5.jpg" alt="img">
+                                    </figure>
+                                    <div class="docCardTxt">
+                                        <div class="docCardTxtTop">
+                                            <p class="docCardName">Dr Prakash Kumar Hazra</p>
+                                            <p class="docCardProf">Consultant</p>
+                                        </div>
+                                        <div class="docCardTxtBtm">
+                                            <p class="docCardQuali">MD (Paediatrics), DM (Neonatology), Fellowship in Neonatalogy (IAP)</p>
+                                        </div>
+                                        <button class="docCardBookbtn">Book Appointment</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- <div class="swiper-pagination"></div> -->
                     </div>
                 </div>
 
